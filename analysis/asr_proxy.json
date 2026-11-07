@@ -1,0 +1,52 @@
+[
+  {
+    "path": "Results/English/test_generated_audios/E1.wav",
+    "language": "english",
+    "source_text": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings.",
+    "test_id": "E1",
+    "asr_text": "The entire establishment Aryanism movement gained considerable momentum during the parliamentary proceedings.",
+    "asr_model": "large-v3",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score"
+  },
+  {
+    "path": "Results/English/test_generated_audios/E2a.wav",
+    "language": "english",
+    "source_text": "The orchestra's conduct during the ceremony was praised by the audience.",
+    "test_id": "E2a",
+    "asr_text": "The orchestra's conduct during the ceremony was praised by the audience.",
+    "asr_model": "large-v3",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score"
+  },
+  {
+    "path": "Results/English/test_generated_audios/E2b.wav",
+    "language": "english",
+    "source_text": "The researchers will conduct an experiment to evaluate the proposed method.",
+    "test_id": "E2b",
+    "asr_text": "The researchers will conduct an experiment to evaluate the proposed method.",
+    "asr_model": "large-v3",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score"
+  },
+  {
+    "path": "Results/English/test_generated_audios/E3.wav",
+    "language": "english",
+    "source_text": "The rhyth m of the orchestra changed unexpectedly.",
+    "test_id": "E3",
+    "asr_text": "The rhythm of the orchestra changed unexpectedly.",
+    "asr_model": "large-v3",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score"
+  },
+  {
+    "path": "Results/English/test_generated_audios/E4.wav",
+    "language": "english",
+    "source_text": "The meeting will start at 10:45 AM on 12 November 2026, so andaroo should arrive on time.",
+    "test_id": "E4",
+    "asr_text": "The meeting will start at 10.45 p.m. on 12 November 2026. Sohan Darausha Drive on time.",
+    "asr_model": "large-v3",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score"
+  }
+]

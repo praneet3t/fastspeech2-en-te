@@ -1,0 +1,13 @@
+{
+  "v1": {
+    "url": "https://arxiv.org/pdf/2006.04558v1",
+    "sha256": "6cef46a76b83aa8873cabaf57e2dc17420c32dbc5893231705884f994b94321b",
+    "pitch": "direct scalar frame F0; original paper uses zero unvoiced values"
+  },
+  "v8": {
+    "url": "https://arxiv.org/pdf/2006.04558v8",
+    "sha256": "cc63cbd90dbc90107603cd064969f23a9b6b00b986c3bda3c27dc63613147e2a",
+    "pitch": "CWT pitch spectrogram and inverse CWT"
+  },
+  "implemented": "ming024 scalar-F0 variant, unit-level continuous/interpolated pitch and energy, linear standardized bins and additional PostNet; not exact original-paper feature handling"
+}

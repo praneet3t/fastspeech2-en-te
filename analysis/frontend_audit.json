@@ -1,0 +1,18 @@
+{
+  "english": {
+    "utterances": 4042,
+    "mismatched_frontend_rows": [],
+    "normalization_counts": {
+      "English case and number/time expansion": 3247,
+      "Repeated whitespace collapsed internally; raw text preserved": 7,
+      "English lexicon fallback": 1984,
+      "Explicit conduct context heuristic": 2,
+      "Line breaks collapsed internally; raw text preserved": 1
+    }
+  },
+  "telugu": {
+    "utterances": 1829,
+    "mismatched_frontend_rows": [],
+    "normalization_counts": {}
+  }
+}

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png -text
+*.wav -text
+*.pdf -text
+*.gz -text
+# Preserve the retained upstream files byte for byte.
+vendor/** -text

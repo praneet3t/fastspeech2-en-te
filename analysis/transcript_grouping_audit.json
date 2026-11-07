@@ -1,0 +1,14 @@
+{
+  "english": {
+    "exact_normalized_duplicate_rows": 1114,
+    "conservative_key_collision_groups": 0,
+    "grouping_key": "Unicode NFC/casefold followed by Python non-word removal; Telugu combining marks omitted only in split grouping key",
+    "raw_text_or_model_units_modified": false
+  },
+  "telugu": {
+    "exact_normalized_duplicate_rows": 1283,
+    "conservative_key_collision_groups": 129,
+    "grouping_key": "Unicode NFC/casefold followed by Python non-word removal; Telugu combining marks omitted only in split grouping key",
+    "raw_text_or_model_units_modified": false
+  }
+}

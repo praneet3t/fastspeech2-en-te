@@ -1,0 +1,31 @@
+FastSpeech 2 implementation: ming024/FastSpeech2
+Commit d4e79eb52e8b01d24703b2dfc0385544092958f3
+MIT license retained in vendor/fastspeech2/LICENSE.
+
+HiFi-GAN implementation: Jungil Kong et al.
+MIT license retained in vendor/fastspeech2/hifigan/LICENSE.
+
+Svarah: AI4Bharat; Tahir Javed et al., Interspeech 2023.
+Dataset card: CC BY 4.0. Original dataset is not redistributed.
+
+IndicTTS Telugu: Speech Technology Consortium, IIT Madras.
+COPYRIGHT 2016 TTS Consortium, TDIL, Meity represented by Hema A Murthy & S Umesh,
+DEPARTMENT OF Computer Science and Engineering and Electrical Engineering, IIT
+Madras. ALL RIGHTS RESERVED
+
+Provider EULA copy: references/licenses/IndicTTS_EULA.pdf.
+
+Forced alignment: Montreal Corpus Tools / Montreal Forced Aligner 3.3.9.
+English acoustic model: english_us_arpa v3.0.0; model card states CC BY 4.0.
+https://mfa-models.readthedocs.io/en/latest/acoustic/English/English%20%28US%29%20ARPA%20acoustic%20model%20v3_0_0.html
+The Telugu aligner was trained on the selected Telugu training split.
+
+English text dependencies: CMUdict and g2p-en; their dictionaries, models and
+installed notices remain governed by their respective licenses.
+Optional recognition: faster-whisper and Whisper large-v3. Automatic recognition
+is an evaluation proxy, not a human listening judgment.
+
+HiFi-GAN's source-code license does not independently establish public
+redistribution rights for pretrained generator weights. The trained acoustic
+checkpoints are distributed separately with these notices. Third-party vocoder
+weights and original dataset recordings are not redistributed by this project.

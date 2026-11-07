@@ -1,0 +1,22 @@
+{
+  "selected": 1829,
+  "accepted": 1815,
+  "rejected": 14,
+  "failures": {
+    "Missing forced alignment": 14
+  },
+  "splits": {
+    "train": {
+      "utterances": 1500,
+      "hours": 4.943981776620363,
+      "mel_frames": 1532420,
+      "zero_duration_units": 40
+    },
+    "val": {
+      "utterances": 315,
+      "hours": 1.0052900462962966,
+      "mel_frames": 311585,
+      "zero_duration_units": 14
+    }
+  }
+}

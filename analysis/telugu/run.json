@@ -1,0 +1,96 @@
+{
+  "config": {
+    "language": "telugu",
+    "seed": 2026,
+    "dataset": {
+      "repo": "SPRINGLab/IndicTTS_Telugu",
+      "revision": "7ab3c18491bef3f5d4e820c2701b5f78f54031d6"
+    },
+    "selection": {
+      "train_seconds": 18000,
+      "val_seconds": 3600,
+      "max_seconds": 30
+    },
+    "audio": {
+      "sample_rate": 22050,
+      "n_fft": 1024,
+      "hop_length": 256,
+      "win_length": 1024,
+      "n_mels": 80,
+      "fmin": 0,
+      "fmax": 8000
+    },
+    "alignment": {
+      "mfa_executable": "mfa",
+      "jobs": 16,
+      "acoustic_model": "artifacts/alignment/telugu.zip"
+    },
+    "model": {
+      "transformer": {
+        "encoder_layer": 4,
+        "encoder_head": 2,
+        "encoder_hidden": 256,
+        "decoder_layer": 6,
+        "decoder_head": 2,
+        "decoder_hidden": 256,
+        "conv_filter_size": 1024,
+        "conv_kernel_size": [
+          9,
+          1
+        ],
+        "encoder_dropout": 0.2,
+        "decoder_dropout": 0.2
+      },
+      "variance_predictor": {
+        "filter_size": 256,
+        "kernel_size": 3,
+        "dropout": 0.5
+      },
+      "variance_embedding": {
+        "pitch_quantization": "linear",
+        "energy_quantization": "linear",
+        "n_bins": 256
+      },
+      "multi_speaker": true,
+      "max_seq_len": 4096
+    },
+    "training": {
+      "batch_size": 8,
+      "gradient_accumulation": 4,
+      "precision": "bf16",
+      "total_steps": 30000,
+      "warmup_steps": 4000,
+      "learning_rate_scale": 1.0,
+      "betas": [
+        0.9,
+        0.98
+      ],
+      "epsilon": 1e-09,
+      "gradient_clip": 1.0,
+      "log_interval": 25,
+      "validation_interval": 500,
+      "checkpoint_interval": 500,
+      "workers": 4,
+      "checkpoint_dir": "Telugu/checkpoints",
+      "min_steps": 8000,
+      "early_stopping_patience": 8,
+      "relative_min_improvement": 0.001,
+      "length_bucket_multiplier": 4
+    },
+    "vocoder": {
+      "checkpoint": "artifacts/vocoder/generator_universal.pth.tar",
+      "config": "vendor/fastspeech2/hifigan/config.json"
+    }
+  },
+  "parameters": 36665665,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "source_hashes": {
+    "stats.json": "72d84393e3847b839a2b2fb5ed7af63e59117648eea12a0a9f973053f1420b44",
+    "vocab.json": "961b9169f8d4c401cce10bf4eb0ec1302e80deff64005fd62e309d8a4c7b421d",
+    "speakers.json": "00c039f94a12238e712626dea7e1a5f20b629dde438cf31f632d0d1a2fe404e3",
+    "train.jsonl": "e6e56e6c5bd3652ddc6cc37bc5e52ef187e55c3f03d25d1bbc04f8179752f762",
+    "val.jsonl": "aec70294c4f50704818cb6fa73e0f859089b0f2fed70e359d9f795cb8ef395b2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "step": 14500,
+  "stop_reason": "validation_plateau",
+  "best_validation": 1.9772416572853244,
+  "elapsed_seconds": 6187.691058718001,
+  "checkpoint": "Telugu/checkpoints/best.pt"
+}

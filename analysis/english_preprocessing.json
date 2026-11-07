@@ -1,0 +1,24 @@
+{
+  "selected": 4042,
+  "accepted": 4012,
+  "rejected": 30,
+  "failures": {
+    "Implausible speech phone >2 seconds or no speech": 10,
+    "Fewer than two voiced WORLD F0 frames": 17,
+    "Missing forced alignment": 3
+  },
+  "splits": {
+    "train": {
+      "utterances": 3354,
+      "hours": 4.957436406249998,
+      "mel_frames": 1535538,
+      "zero_duration_units": 243
+    },
+    "val": {
+      "utterances": 658,
+      "hours": 1.0077244097222233,
+      "mel_frames": 312134,
+      "zero_duration_units": 36
+    }
+  }
+}

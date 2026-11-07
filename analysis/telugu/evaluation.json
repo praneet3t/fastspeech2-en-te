@@ -1,0 +1,93 @@
+{
+  "total": 1.9772416572853244,
+  "mel": 0.6226243794185332,
+  "postnet_mel": 0.6223145069642055,
+  "pitch": 0.4494401513119953,
+  "energy": 0.21835492728728909,
+  "duration": 0.06450769230330144,
+  "duration_mae_frames": 1.8272060735271176,
+  "validation_mode": "teacher-forced ground-truth duration, pitch and energy conditioning",
+  "total_parameters": 36665665,
+  "trainable_parameters": 34567491,
+  "pitch_rmse_hz_mostly_voiced_units": 28.363926788951577,
+  "pitch_evaluated_units": 23728,
+  "energy_rmse_stft_l2": 11.133886260574807,
+  "pitch_evaluation": "continuous target, units with >=80% voiced frames and nonzero duration; teacher-forced path",
+  "checkpoint_step": 10500,
+  "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+  "language": "telugu",
+  "free_running_validation_lengths": [
+    {
+      "source_id": "train-00000-of-00004:000016",
+      "predicted_frames": 1391,
+      "reference_frames": 2113,
+      "duration_ratio": 0.6583057264552769
+    },
+    {
+      "source_id": "train-00000-of-00004:000029",
+      "predicted_frames": 1127,
+      "reference_frames": 1728,
+      "duration_ratio": 0.6521990740740741
+    },
+    {
+      "source_id": "train-00000-of-00004:000051",
+      "predicted_frames": 185,
+      "reference_frames": 155,
+      "duration_ratio": 1.1935483870967742
+    },
+    {
+      "source_id": "train-00000-of-00004:000098",
+      "predicted_frames": 203,
+      "reference_frames": 304,
+      "duration_ratio": 0.6677631578947368
+    },
+    {
+      "source_id": "train-00000-of-00004:000148",
+      "predicted_frames": 641,
+      "reference_frames": 867,
+      "duration_ratio": 0.7393310265282583
+    },
+    {
+      "source_id": "train-00000-of-00004:000215",
+      "predicted_frames": 1373,
+      "reference_frames": 2042,
+      "duration_ratio": 0.6723800195886386
+    },
+    {
+      "source_id": "train-00000-of-00004:000286",
+      "predicted_frames": 203,
+      "reference_frames": 211,
+      "duration_ratio": 0.9620853080568721
+    },
+    {
+      "source_id": "train-00000-of-00004:000310",
+      "predicted_frames": 959,
+      "reference_frames": 1314,
+      "duration_ratio": 0.7298325722983258
+    },
+    {
+      "source_id": "train-00000-of-00004:000335",
+      "predicted_frames": 1229,
+      "reference_frames": 1585,
+      "duration_ratio": 0.7753943217665615
+    },
+    {
+      "source_id": "train-00000-of-00004:000454",
+      "predicted_frames": 651,
+      "reference_frames": 828,
+      "duration_ratio": 0.7862318840579711
+    },
+    {
+      "source_id": "train-00000-of-00004:000503",
+      "predicted_frames": 943,
+      "reference_frames": 1292,
+      "duration_ratio": 0.7298761609907121
+    },
+    {
+      "source_id": "train-00000-of-00004:000527",
+      "predicted_frames": 972,
+      "reference_frames": 1352,
+      "duration_ratio": 0.7189349112426036
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "seed": 2026,
+  "selected_ids": {
+    "english": [
+      {
+        "source_id": "test-00000-of-00003:000562",
+        "speaker_id": "unknown_mixture"
+      },
+      {
+        "source_id": "test-00000-of-00003:001705",
+        "speaker_id": "unknown_mixture"
+      },
+      {
+        "source_id": "test-00002-of-00003:000422",
+        "speaker_id": "unknown_mixture"
+      },
+      {
+        "source_id": "test-00002-of-00003:000208",
+        "speaker_id": "unknown_mixture"
+      },
+      {
+        "source_id": "test-00000-of-00003:000272",
+        "speaker_id": "unknown_mixture"
+      },
+      {
+        "source_id": "test-00002-of-00003:000465",
+        "speaker_id": "unknown_mixture"
+      }
+    ],
+    "telugu": [
+      {
+        "source_id": "train-00000-of-00004:000901",
+        "speaker_id": "female"
+      },
+      {
+        "source_id": "train-00001-of-00004:001903",
+        "speaker_id": "male"
+      }
+    ]
+  },
+  "selection": "English: same six IDs as the completed original checkpoint probe. Telugu: first persisted validation row per speaker satisfying 5–8 seconds. No test sentences used for model selection.",
+  "localization": "First two English rows and both Telugu rows; English checkpoint comparison uses all six English rows.",
+  "precision": "FP32 eval/inference_mode; no optimizer, gradients or parameter updates",
+  "dtw": "Unconstrained DTW on 4-frame mean-pooled log mels; mean path L1, not an intelligibility measure"
+}

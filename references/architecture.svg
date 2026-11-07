@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="740" viewBox="0 0 1040 740" role="img" aria-labelledby="title desc">
+<title id="title">FastSpeech 2 implementation: text to waveform</title>
+<desc id="desc">Tokens enter a four-block encoder. Telugu adds a speaker embedding. Duration is predicted before pitch conditioning. Pitch embedding is added before energy prediction; energy embedding is then added. The length regulator repeats the conditioned vectors using supervised or predicted durations. Six decoder blocks, a mel projection and a PostNet residual produce log-magnitude mels for a fixed HiFi-GAN vocoder. Training supplies duration, pitch and energy targets.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#334155"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#18283b;font-size:14px}.small{font-size:12px}.label{font-size:16px;font-weight:bold}.box{fill:#f4f7fa;stroke:#65778b;stroke-width:1.3}.accent{fill:#e8f1fa;stroke:#466783;stroke-width:1.3}.flow{fill:none;stroke:#334155;stroke-width:1.5;marker-end:url(#arrow)}.target{fill:none;stroke:#62758a;stroke-width:1.4;stroke-dasharray:6 4;marker-end:url(#arrow)}</style>
+<rect width="1040" height="740" fill="white"/>
+<text x="30" y="32" class="label">Actual acoustic model and fixed vocoder</text>
+<rect x="30" y="52" width="290" height="54" rx="5" class="box"/><text x="175" y="75" text-anchor="middle">Raw text → normalization → units</text><text x="175" y="95" text-anchor="middle" class="small">English ARPAbet / Telugu te_* hypotheses</text>
+<path d="M175 106V126" class="flow"/>
+<rect x="30" y="126" width="290" height="58" rx="5" class="accent"/><text x="175" y="150" text-anchor="middle">Token + position embedding → encoder</text><text x="175" y="172" text-anchor="middle" class="small">4 FFT blocks · [B,N,256]</text>
+<path d="M175 184V204" class="flow"/>
+<rect x="30" y="204" width="290" height="54" rx="5" class="box"/><text x="175" y="227" text-anchor="middle">Add speaker embedding (Telugu only)</text><text x="175" y="247" text-anchor="middle" class="small">[B,256] broadcast over N units</text>
+<path d="M320 231H365V127H400" class="flow"/>
+<rect x="400" y="102" width="245" height="54" rx="5" class="box"/><text x="522" y="125" text-anchor="middle">Duration predictor · [B,N]</text><text x="522" y="145" text-anchor="middle" class="small">log(1+d) → rounded/clamped d</text>
+<path d="M320 231H400" class="flow"/>
+<rect x="400" y="204" width="245" height="54" rx="5" class="box"/><text x="522" y="227" text-anchor="middle">Pitch predictor + bin embedding</text><text x="522" y="247" text-anchor="middle" class="small">Add to encoder representation</text>
+<path d="M522 258V278" class="flow"/>
+<rect x="400" y="278" width="245" height="54" rx="5" class="box"/><text x="522" y="301" text-anchor="middle">Energy predictor + bin embedding</text><text x="522" y="321" text-anchor="middle" class="small">Add to pitch-conditioned representation</text>
+<rect x="738" y="176" width="270" height="100" rx="5" class="box"/><text x="873" y="201" text-anchor="middle" class="label">Training: supervised variances</text><text x="873" y="226" text-anchor="middle">Pitch and energy choose embeddings</text><text x="873" y="249" text-anchor="middle">Aligned duration chooses repeats</text><text x="873" y="268" text-anchor="middle" class="small">Inference uses predictions instead</text>
+<path d="M738 215H645" class="target"/><path d="M738 247H700V305H645" class="target"/>
+<path d="M522 332V364" class="flow"/><path d="M522 156H677V389H645" class="flow"/>
+<path d="M873 276V389H645" class="target"/>
+<rect x="400" y="364" width="245" height="54" rx="5" class="accent"/><text x="522" y="387" text-anchor="middle">Length regulator</text><text x="522" y="407" text-anchor="middle" class="small">[B,N,256] → repeat d → [B,T,256]</text>
+<path d="M522 418V440" class="flow"/>
+<rect x="400" y="440" width="245" height="54" rx="5" class="accent"/><text x="522" y="463" text-anchor="middle">Decoder: 6 FFT blocks</text><text x="522" y="483" text-anchor="middle" class="small">[B,T,256] → linear mel projection</text>
+<path d="M522 494V516" class="flow"/>
+<rect x="400" y="516" width="245" height="54" rx="5" class="box"/><text x="522" y="539" text-anchor="middle">Mel + PostNet residual</text><text x="522" y="559" text-anchor="middle" class="small">[B,T,80] → transpose [B,80,T]</text>
+<path d="M522 570V592" class="flow"/>
+<rect x="400" y="592" width="245" height="54" rx="5" class="accent"/><text x="522" y="615" text-anchor="middle">Fixed universal HiFi-GAN</text><text x="522" y="635" text-anchor="middle" class="small">Waveform [B,T×256] at 22,050 Hz</text>
+<text x="30" y="688" class="small">N = padded input units · T = padded mel frames · scalar continuous F0, no voicing predictor · spectral L2 energy, not dB</text>
+<text x="30" y="714" class="small">Training objective: mel L1 + PostNet mel L1 + duration log-space MSE + pitch MSE + energy MSE. HiFi-GAN is not trained here.</text>
+</svg>

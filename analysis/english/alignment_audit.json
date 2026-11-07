@@ -1,0 +1,32 @@
+{
+  "accepted_utterances": 4012,
+  "mel_frames": 1847672,
+  "units": 205331,
+  "zero_duration_units": 279,
+  "silence_frame_fraction": 0.22314404288207,
+  "speech_unit_duration_frames_percentiles": [
+    0.0,
+    4.0,
+    6.0,
+    9.0,
+    17.0,
+    31.0,
+    168.0
+  ],
+  "duration_convention": "round shared boundaries once, last boundary=floor(samples/256)",
+  "manual_phone_boundary_accuracy": "not established; no hand-labelled alignment benchmark",
+  "examples": [
+    {
+      "source_id": "test-00002-of-00003:001923",
+      "plot": "analysis/english/alignment_examples/test-00002-of-00003_001923.png"
+    },
+    {
+      "source_id": "test-00000-of-00003:000867",
+      "plot": "analysis/english/alignment_examples/test-00000-of-00003_000867.png"
+    },
+    {
+      "source_id": "test-00001-of-00003:001682",
+      "plot": "analysis/english/alignment_examples/test-00001-of-00003_001682.png"
+    }
+  ]
+}

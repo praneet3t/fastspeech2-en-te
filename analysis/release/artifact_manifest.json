@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "artifacts": [
+    {
+      "id": "english_selected",
+      "path": "English/checkpoints/selected.pt",
+      "filename": "english-selected-step8000.pt",
+      "bytes": 423564568,
+      "sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+      "step": 8000,
+      "language": "english",
+      "download_url": "https://github.com/praneet3t/fastspeech2-en-te/releases/download/models-v1/english-selected-step8000.pt",
+      "distribution": "Trained acoustic checkpoint; dataset attribution and conditions are retained in NOTICE.",
+      "requires_authentication": false,
+      "publicly_available": true
+    },
+    {
+      "id": "telugu_selected",
+      "path": "Telugu/checkpoints/selected.pt",
+      "filename": "telugu-selected-step10500.pt",
+      "bytes": 423471704,
+      "sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+      "step": 10500,
+      "language": "telugu",
+      "download_url": "https://github.com/praneet3t/fastspeech2-en-te/releases/download/models-v1/telugu-selected-step10500.pt",
+      "distribution": "Trained acoustic checkpoint; dataset attribution and conditions are retained in NOTICE.",
+      "requires_authentication": false,
+      "publicly_available": true
+    },
+    {
+      "id": "vocoder",
+      "path": "artifacts/vocoder/generator_universal.pth.tar",
+      "filename": "generator_universal.pth.tar.zip",
+      "bytes": 55788858,
+      "sha256": "771eaf4876485a35e25577563d390c262e23c2421e4a8c929eacfde34a5b7a60",
+      "download_url": "https://raw.githubusercontent.com/ming024/FastSpeech2/d4e79eb52e8b01d24703b2dfc0385544092958f3/hifigan/generator_universal.pth.tar.zip",
+      "archive_member": "generator_universal.pth.tar",
+      "archive_sha256": "1fd93a04431b14296cf1d3f66a6fea89c2fdeb8f3b900a962e13ad21f67f9149",
+      "distribution": "Original upstream download; pretrained vocoder weights are not rehosted by this project.",
+      "requires_authentication": false,
+      "publicly_available": true
+    }
+  ]
+}

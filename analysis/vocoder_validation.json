@@ -1,0 +1,65 @@
+[
+  {
+    "language": "english",
+    "source_id": "test-00000-of-00003:000009",
+    "speaker_id": "unknown_mixture",
+    "source_rate": 16000,
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 87040,
+      "duration_seconds": 3.947392290249433,
+      "rms": 0.16605404425604495,
+      "peak": 0.908050537109375,
+      "clipped_fraction": 0.0
+    },
+    "mel_reanalysis_l1": 0.24929596483707428,
+    "reference_voiced_f0_median_hz": 216.77111675750567,
+    "reconstructed_voiced_f0_median_hz": 214.3422112274132,
+    "common_voiced_f0_mae_hz": 9.884097459863176,
+    "common_voiced_f0_median_absolute_error_hz": 2.0821262375216065,
+    "common_voiced_frames": 443,
+    "note": "Numerical analysis only; no qualified listening assessment"
+  },
+  {
+    "language": "telugu",
+    "source_id": "train-00000-of-00004:000098",
+    "speaker_id": "female",
+    "source_rate": 16000,
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 77824,
+      "duration_seconds": 3.5294331065759637,
+      "rms": 0.07225193709467927,
+      "peak": 0.554656982421875,
+      "clipped_fraction": 0.0
+    },
+    "mel_reanalysis_l1": 0.24964779615402222,
+    "reference_voiced_f0_median_hz": 245.78299859849645,
+    "reconstructed_voiced_f0_median_hz": 208.1911811778225,
+    "common_voiced_f0_mae_hz": 4.5434521970847435,
+    "common_voiced_f0_median_absolute_error_hz": 1.898494864511349,
+    "common_voiced_frames": 243,
+    "note": "Numerical analysis only; no qualified listening assessment"
+  },
+  {
+    "language": "telugu",
+    "source_id": "train-00001-of-00004:001903",
+    "speaker_id": "male",
+    "source_rate": 48000,
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 114944,
+      "duration_seconds": 5.2128798185941045,
+      "rms": 0.05596390325586797,
+      "peak": 0.482208251953125,
+      "clipped_fraction": 0.0
+    },
+    "mel_reanalysis_l1": 0.2552827000617981,
+    "reference_voiced_f0_median_hz": 200.20462617027755,
+    "reconstructed_voiced_f0_median_hz": 201.33327460605045,
+    "common_voiced_f0_mae_hz": 7.57922054354242,
+    "common_voiced_f0_median_absolute_error_hz": 2.3786801949223246,
+    "common_voiced_frames": 556,
+    "note": "Numerical analysis only; no qualified listening assessment"
+  }
+]

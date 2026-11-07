@@ -1,0 +1,52 @@
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.venv/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+**/checkpoints/*
+!**/checkpoints/.gitkeep
+datasets/
+wandb/
+.cache/
+data/raw/
+data/features/
+data/alignment/
+artifacts/
+*.parquet
+*.wav
+*.flac
+*.npy
+*.npz
+*.TextGrid
+*.log
+.pytest_cache/
+# Local corpus metadata contains dataset transcripts; regenerate from pinned sources.
+data/manifests/*.jsonl
+analysis/*_audit.jsonl
+analysis/*_selection.jsonl
+analysis/*_preprocessing_failures.jsonl
+# Keep submitted generated speech; exclude every original/reference recording.
+!Results/**/*.wav
+.mfa-env/
+
+# Local verification cache, refreshed after meaningful pushes (no network in status).
+analysis/github_submission.json
+
+# Submission working files and privately archived development material.
+artifacts/development_archive/
+Report/*.html
+Report/figures/
+analysis/*.xml
+analysis/release/*.xml
+.ruff_cache/
+.mypy_cache/
+*.tmp
+
+# Local validation outputs.
+analysis/artifact_audit.json
+analysis/**/*.xml

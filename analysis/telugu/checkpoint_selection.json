@@ -1,0 +1,11 @@
+{
+  "selected_step": 10500,
+  "selected_checkpoint": "Telugu/checkpoints/selected.pt",
+  "selected_checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+  "selected_validation_total": 1.9772416572853244,
+  "minimum_objective_step": 10500,
+  "minimum_objective_total": 1.9772416572853244,
+  "criterion_id": "objective",
+  "criterion": "Lowest teacher-forced validation total",
+  "supplied_tests_used_for_comparison": false
+}

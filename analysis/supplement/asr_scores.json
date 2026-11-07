@@ -1,0 +1,359 @@
+{
+  "model": "Whisper large-v3, pinned revision in local asr.json",
+  "normalization": "Existing comparison words(); character distance joins these normalized words, retaining Telugu marks and ignoring spaces",
+  "note": "Automatic transcription proxy; controls and small samples cannot establish naturalness or causal mechanisms",
+  "conditions": [
+    {
+      "condition_id": "e1_original",
+      "language": "english",
+      "reference_words": 27,
+      "word_errors": 0,
+      "reference_characters": 137,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e1_reference_vocoder",
+      "language": "english",
+      "reference_words": 27,
+      "word_errors": 0,
+      "reference_characters": 137,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e2_original",
+      "language": "english",
+      "reference_words": 16,
+      "word_errors": 1,
+      "reference_characters": 67,
+      "character_errors": 2
+    },
+    {
+      "condition_id": "e2_reference_vocoder",
+      "language": "english",
+      "reference_words": 16,
+      "word_errors": 2,
+      "reference_characters": 67,
+      "character_errors": 4
+    },
+    {
+      "condition_id": "e3_original",
+      "language": "english",
+      "reference_words": 31,
+      "word_errors": 1,
+      "reference_characters": 120,
+      "character_errors": 3
+    },
+    {
+      "condition_id": "e3_reference_vocoder",
+      "language": "english",
+      "reference_words": 31,
+      "word_errors": 0,
+      "reference_characters": 120,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e4_original",
+      "language": "english",
+      "reference_words": 22,
+      "word_errors": 0,
+      "reference_characters": 120,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e4_reference_vocoder",
+      "language": "english",
+      "reference_words": 22,
+      "word_errors": 0,
+      "reference_characters": 120,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e5_original",
+      "language": "english",
+      "reference_words": 15,
+      "word_errors": 1,
+      "reference_characters": 72,
+      "character_errors": 3
+    },
+    {
+      "condition_id": "e5_reference_vocoder",
+      "language": "english",
+      "reference_words": 15,
+      "word_errors": 1,
+      "reference_characters": 72,
+      "character_errors": 3
+    },
+    {
+      "condition_id": "e6_original",
+      "language": "english",
+      "reference_words": 18,
+      "word_errors": 0,
+      "reference_characters": 81,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e6_reference_vocoder",
+      "language": "english",
+      "reference_words": 18,
+      "word_errors": 0,
+      "reference_characters": 81,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e1_step1000_gt_variance",
+      "language": "english",
+      "reference_words": 27,
+      "word_errors": 13,
+      "reference_characters": 137,
+      "character_errors": 49
+    },
+    {
+      "condition_id": "e1_step1000_full_inference",
+      "language": "english",
+      "reference_words": 27,
+      "word_errors": 9,
+      "reference_characters": 137,
+      "character_errors": 28
+    },
+    {
+      "condition_id": "e2_step1000_gt_variance",
+      "language": "english",
+      "reference_words": 16,
+      "word_errors": 8,
+      "reference_characters": 67,
+      "character_errors": 22
+    },
+    {
+      "condition_id": "e2_step1000_full_inference",
+      "language": "english",
+      "reference_words": 16,
+      "word_errors": 0,
+      "reference_characters": 67,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e3_step1000_gt_variance",
+      "language": "english",
+      "reference_words": 31,
+      "word_errors": 8,
+      "reference_characters": 120,
+      "character_errors": 26
+    },
+    {
+      "condition_id": "e3_step1000_full_inference",
+      "language": "english",
+      "reference_words": 31,
+      "word_errors": 18,
+      "reference_characters": 120,
+      "character_errors": 55
+    },
+    {
+      "condition_id": "e4_step1000_gt_variance",
+      "language": "english",
+      "reference_words": 22,
+      "word_errors": 11,
+      "reference_characters": 120,
+      "character_errors": 62
+    },
+    {
+      "condition_id": "e4_step1000_full_inference",
+      "language": "english",
+      "reference_words": 22,
+      "word_errors": 3,
+      "reference_characters": 120,
+      "character_errors": 4
+    },
+    {
+      "condition_id": "e5_step1000_gt_variance",
+      "language": "english",
+      "reference_words": 15,
+      "word_errors": 2,
+      "reference_characters": 72,
+      "character_errors": 6
+    },
+    {
+      "condition_id": "e5_step1000_full_inference",
+      "language": "english",
+      "reference_words": 15,
+      "word_errors": 2,
+      "reference_characters": 72,
+      "character_errors": 7
+    },
+    {
+      "condition_id": "e6_step1000_gt_variance",
+      "language": "english",
+      "reference_words": 18,
+      "word_errors": 3,
+      "reference_characters": 81,
+      "character_errors": 11
+    },
+    {
+      "condition_id": "e6_step1000_full_inference",
+      "language": "english",
+      "reference_words": 18,
+      "word_errors": 2,
+      "reference_characters": 81,
+      "character_errors": 3
+    },
+    {
+      "condition_id": "e1_step8000_gt_variance",
+      "language": "english",
+      "reference_words": 27,
+      "word_errors": 1,
+      "reference_characters": 137,
+      "character_errors": 5
+    },
+    {
+      "condition_id": "e1_step8000_full_inference",
+      "language": "english",
+      "reference_words": 27,
+      "word_errors": 1,
+      "reference_characters": 137,
+      "character_errors": 4
+    },
+    {
+      "condition_id": "e2_step8000_gt_variance",
+      "language": "english",
+      "reference_words": 16,
+      "word_errors": 5,
+      "reference_characters": 67,
+      "character_errors": 18
+    },
+    {
+      "condition_id": "e2_step8000_full_inference",
+      "language": "english",
+      "reference_words": 16,
+      "word_errors": 0,
+      "reference_characters": 67,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e3_step8000_gt_variance",
+      "language": "english",
+      "reference_words": 31,
+      "word_errors": 3,
+      "reference_characters": 120,
+      "character_errors": 10
+    },
+    {
+      "condition_id": "e3_step8000_full_inference",
+      "language": "english",
+      "reference_words": 31,
+      "word_errors": 5,
+      "reference_characters": 120,
+      "character_errors": 6
+    },
+    {
+      "condition_id": "e4_step8000_gt_variance",
+      "language": "english",
+      "reference_words": 22,
+      "word_errors": 1,
+      "reference_characters": 120,
+      "character_errors": 6
+    },
+    {
+      "condition_id": "e4_step8000_full_inference",
+      "language": "english",
+      "reference_words": 22,
+      "word_errors": 3,
+      "reference_characters": 120,
+      "character_errors": 5
+    },
+    {
+      "condition_id": "e5_step8000_gt_variance",
+      "language": "english",
+      "reference_words": 15,
+      "word_errors": 0,
+      "reference_characters": 72,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e5_step8000_full_inference",
+      "language": "english",
+      "reference_words": 15,
+      "word_errors": 1,
+      "reference_characters": 72,
+      "character_errors": 2
+    },
+    {
+      "condition_id": "e6_step8000_gt_variance",
+      "language": "english",
+      "reference_words": 18,
+      "word_errors": 0,
+      "reference_characters": 81,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "e6_step8000_full_inference",
+      "language": "english",
+      "reference_words": 18,
+      "word_errors": 0,
+      "reference_characters": 81,
+      "character_errors": 0
+    },
+    {
+      "condition_id": "t1_original",
+      "language": "telugu",
+      "reference_words": 6,
+      "word_errors": 8,
+      "reference_characters": 55,
+      "character_errors": 9
+    },
+    {
+      "condition_id": "t1_reference_vocoder",
+      "language": "telugu",
+      "reference_words": 6,
+      "word_errors": 8,
+      "reference_characters": 55,
+      "character_errors": 9
+    },
+    {
+      "condition_id": "t2_original",
+      "language": "telugu",
+      "reference_words": 9,
+      "word_errors": 4,
+      "reference_characters": 46,
+      "character_errors": 7
+    },
+    {
+      "condition_id": "t2_reference_vocoder",
+      "language": "telugu",
+      "reference_words": 9,
+      "word_errors": 4,
+      "reference_characters": 46,
+      "character_errors": 8
+    },
+    {
+      "condition_id": "t1_step10500_gt_variance",
+      "language": "telugu",
+      "reference_words": 6,
+      "word_errors": 8,
+      "reference_characters": 55,
+      "character_errors": 10
+    },
+    {
+      "condition_id": "t1_step10500_full_inference",
+      "language": "telugu",
+      "reference_words": 6,
+      "word_errors": 7,
+      "reference_characters": 55,
+      "character_errors": 9
+    },
+    {
+      "condition_id": "t2_step10500_gt_variance",
+      "language": "telugu",
+      "reference_words": 9,
+      "word_errors": 3,
+      "reference_characters": 46,
+      "character_errors": 5
+    },
+    {
+      "condition_id": "t2_step10500_full_inference",
+      "language": "telugu",
+      "reference_words": 9,
+      "word_errors": 5,
+      "reference_characters": 46,
+      "character_errors": 10
+    }
+  ]
+}

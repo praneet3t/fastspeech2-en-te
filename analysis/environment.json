@@ -1,0 +1,9 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-170-generic-x86_64-with-glibc2.35",
+  "torch": "2.5.1+cu121",
+  "cuda_runtime": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "vram_bytes": 42404806656
+}

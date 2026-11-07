@@ -1,0 +1,47 @@
+[
+  {
+    "test_id": "E1",
+    "sample_rate": 22050,
+    "samples": 154368,
+    "duration_seconds": 7.000816326530612,
+    "rms": 0.07300484519701055,
+    "peak": 0.4376220703125,
+    "clipped_fraction": 0.0
+  },
+  {
+    "test_id": "E2a",
+    "sample_rate": 22050,
+    "samples": 87808,
+    "duration_seconds": 3.982222222222222,
+    "rms": 0.09907030817668216,
+    "peak": 0.499053955078125,
+    "clipped_fraction": 0.0
+  },
+  {
+    "test_id": "E2b",
+    "sample_rate": 22050,
+    "samples": 98304,
+    "duration_seconds": 4.458231292517007,
+    "rms": 0.08225337512660155,
+    "peak": 0.483795166015625,
+    "clipped_fraction": 0.0
+  },
+  {
+    "test_id": "E3",
+    "sample_rate": 22050,
+    "samples": 64768,
+    "duration_seconds": 2.9373242630385485,
+    "rms": 0.07259710215399111,
+    "peak": 0.4559326171875,
+    "clipped_fraction": 0.0
+  },
+  {
+    "test_id": "E4",
+    "sample_rate": 22050,
+    "samples": 160000,
+    "duration_seconds": 7.2562358276643995,
+    "rms": 0.06391541441033785,
+    "peak": 0.371337890625,
+    "clipped_fraction": 0.0
+  }
+]

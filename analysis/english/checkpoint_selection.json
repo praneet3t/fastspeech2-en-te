@@ -1,0 +1,122 @@
+{
+  "selected_step": 8000,
+  "selected_checkpoint": "English/checkpoints/selected.pt",
+  "selected_checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+  "selected_validation_total": 3.8796254702160313,
+  "minimum_objective_step": 1000,
+  "minimum_objective_total": 3.582084071566895,
+  "criterion": "Lowest Whisper large-v3 WER on a fixed validation-only probe; this is an intelligibility proxy, not naturalness",
+  "supplied_tests_used_for_comparison": false,
+  "validation_probe": {
+    "seed": 2026,
+    "utterances": 6,
+    "selection": "5\u201312 s validation-only utterances with >=8 normalized words; seeded shuffle",
+    "asr": "Whisper large-v3 edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "metric": "word edit distance / normalized reference words; ASR intelligibility proxy only",
+    "candidates": {
+      "best": {
+        "step": 1000,
+        "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+        "reference_words": 129,
+        "word_errors": 34,
+        "asr_wer": 0.26356589147286824,
+        "utterances": [
+          {
+            "source_id": "test-00000-of-00003:000562",
+            "reference_words": 27,
+            "word_errors": 9,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 10.237
+          },
+          {
+            "source_id": "test-00000-of-00003:001705",
+            "reference_words": 16,
+            "word_errors": 0,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 7.268
+          },
+          {
+            "source_id": "test-00002-of-00003:000422",
+            "reference_words": 31,
+            "word_errors": 18,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 10.357875
+          },
+          {
+            "source_id": "test-00002-of-00003:000208",
+            "reference_words": 22,
+            "word_errors": 3,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 8.542125
+          },
+          {
+            "source_id": "test-00000-of-00003:000272",
+            "reference_words": 15,
+            "word_errors": 2,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 7.8
+          },
+          {
+            "source_id": "test-00002-of-00003:000465",
+            "reference_words": 18,
+            "word_errors": 2,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 9.06675
+          }
+        ]
+      },
+      "latest": {
+        "step": 8000,
+        "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+        "reference_words": 129,
+        "word_errors": 10,
+        "asr_wer": 0.07751937984496124,
+        "utterances": [
+          {
+            "source_id": "test-00000-of-00003:000562",
+            "reference_words": 27,
+            "word_errors": 1,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 10.237
+          },
+          {
+            "source_id": "test-00000-of-00003:001705",
+            "reference_words": 16,
+            "word_errors": 0,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 7.268
+          },
+          {
+            "source_id": "test-00002-of-00003:000422",
+            "reference_words": 31,
+            "word_errors": 5,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 10.357875
+          },
+          {
+            "source_id": "test-00002-of-00003:000208",
+            "reference_words": 22,
+            "word_errors": 3,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 8.542125
+          },
+          {
+            "source_id": "test-00000-of-00003:000272",
+            "reference_words": 15,
+            "word_errors": 1,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 7.8
+          },
+          {
+            "source_id": "test-00002-of-00003:000465",
+            "reference_words": 18,
+            "word_errors": 0,
+            "speaker_id": "unknown_mixture",
+            "reference_duration_seconds": 9.06675
+          }
+        ]
+      }
+    }
+  },
+  "criterion_id": "validation-probe"
+}

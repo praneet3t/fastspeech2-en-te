@@ -1,0 +1,105 @@
+{
+  "dataset": {
+    "repo": "SPRINGLab/IndicTTS_Telugu",
+    "revision": "7ab3c18491bef3f5d4e820c2701b5f78f54031d6"
+  },
+  "seed": 2026,
+  "max_seconds": 30,
+  "strategy": "seeded connected transcript/recording groups with duration-weighted speaker deficits; whole utterances",
+  "exclusions": {
+    "longer_than_30s": 1007,
+    "text_frontend: Unsupported Telugu symbol '\\ufeff' U+FEFF in '\\ufeff'": 2,
+    "text_frontend: Unsupported Telugu symbol \"'\" U+0027 in \"'\"": 1,
+    "text_frontend: Unsupported Telugu symbol 'o' U+006F in 'o'": 43
+  },
+  "audited_utterances": 8576,
+  "splits": {
+    "train": {
+      "utterances": 1514,
+      "hours": 5.002819311342593,
+      "speaker_count": 2,
+      "conditioning_groups": 2,
+      "hours_per_group": {
+        "female": 2.742325173611112,
+        "male": 2.2604941377314822
+      },
+      "hours_per_speaker": {
+        "female": 2.742325173611112,
+        "male": 2.2604941377314822
+      },
+      "duration_percentiles_seconds": [
+        0.8811875,
+        6.752947916666667,
+        9.884458333333333,
+        16.359385416666665,
+        26.21061979166666,
+        29.939958333333333
+      ]
+    },
+    "val": {
+      "utterances": 315,
+      "hours": 1.0052900462962964,
+      "speaker_count": 2,
+      "conditioning_groups": 2,
+      "hours_per_group": {
+        "female": 0.5508790625000002,
+        "male": 0.45441098379629624
+      },
+      "hours_per_speaker": {
+        "female": 0.5508790625000002,
+        "male": 0.45441098379629624
+      },
+      "duration_percentiles_seconds": [
+        1.407375,
+        6.48846875,
+        9.381333333333334,
+        15.97790625,
+        25.58631666666667,
+        29.909875
+      ]
+    },
+    "unused": {
+      "utterances": 5694,
+      "hours": 18.741930179398146,
+      "speaker_count": 2,
+      "conditioning_groups": 2,
+      "hours_per_group": {
+        "female": 10.061392274305556,
+        "male": 8.68053790509259
+      },
+      "hours_per_speaker": {
+        "female": 10.061392274305556,
+        "male": 8.68053790509259
+      },
+      "duration_percentiles_seconds": [
+        0.6591875,
+        6.532,
+        9.817333333333334,
+        16.33490625,
+        26.03648958333333,
+        29.9795625
+      ]
+    }
+  },
+  "audited_hours": 36.712271359953824,
+  "raw_duration_percentiles_seconds": [
+    0.6591875,
+    7.026010416666667,
+    10.966583333333332,
+    20.553979166666668,
+    39.9873125,
+    60.39765625,
+    151.628875
+  ],
+  "sample_rate_counts": {
+    "16000": 4043,
+    "48000": 4533
+  },
+  "channel_counts": {
+    "1": 8576
+  },
+  "repeated_normalized_transcript_rows": 1283,
+  "speaker_identity_status": "two explicit gender-labelled speakers, as documented by source",
+  "known_speaker_count": 2,
+  "transcript_policy": "Split grouping uses NFC/casefold and Python non-word removal, including Telugu vowel marks; conservative collisions share one split. Raw text/model units retain marks. Exact duplicate checks retain marks; no additional fuzzy matching."
+}

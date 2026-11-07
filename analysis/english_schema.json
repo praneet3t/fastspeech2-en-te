@@ -1,0 +1,64 @@
+{
+  "columns": {
+    "audio_filepath": "struct<bytes: binary, path: string>",
+    "duration": "double",
+    "text": "string",
+    "gender": "string",
+    "age-group": "string",
+    "primary_language": "string",
+    "native_place_state": "string",
+    "native_place_district": "string",
+    "highest_qualification": "string",
+    "job_category": "string",
+    "occupation_domain": "string"
+  },
+  "hf_metadata": {
+    "info": {
+      "features": {
+        "audio_filepath": {
+          "_type": "Audio"
+        },
+        "duration": {
+          "dtype": "float64",
+          "_type": "Value"
+        },
+        "text": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "gender": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "age-group": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "primary_language": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "native_place_state": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "native_place_district": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "highest_qualification": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "job_category": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "occupation_domain": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    }
+  }
+}

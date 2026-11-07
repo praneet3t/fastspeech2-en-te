@@ -1,0 +1,24 @@
+{
+  "english": {
+    "verified": true,
+    "voiced_train_frames": 886069,
+    "nonempty_train_units": 170645,
+    "pitch_mean_hz": 168.772705078125,
+    "pitch_std_hz": 62.3778190612793,
+    "energy_mean": 27.776283264160156,
+    "energy_std": 27.34774398803711,
+    "validation_used": false,
+    "unvoiced_zero_measurements_used": false
+  },
+  "telugu": {
+    "verified": true,
+    "voiced_train_frames": 814708,
+    "nonempty_train_units": 191620,
+    "pitch_mean_hz": 197.26205444335938,
+    "pitch_std_hz": 47.223331451416016,
+    "energy_mean": 31.86701011657715,
+    "energy_std": 23.822729110717773,
+    "validation_used": false,
+    "unvoiced_zero_measurements_used": false
+  }
+}

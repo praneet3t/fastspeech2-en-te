@@ -1,0 +1,21 @@
+{
+  "filename_pattern": "(\\d+)_f(\\d+)_chunk_(\\d+)\\.wav",
+  "prefix_groups": 2938,
+  "prefix_demographic_inconsistencies": 0,
+  "file_groups": 3232,
+  "file_demographic_inconsistencies": 0,
+  "unmatched_paths": [],
+  "demographic_fields": [
+    "gender",
+    "age-group",
+    "primary_language",
+    "native_place_state",
+    "native_place_district",
+    "highest_qualification",
+    "job_category",
+    "occupation_domain"
+  ],
+  "demographic_signature_count": 115,
+  "reported_speaker_count": 117,
+  "decision": "Speaker identity cannot be recovered reliably; neither filenames nor demographic signatures are used as speaker annotations."
+}

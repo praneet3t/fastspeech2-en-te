@@ -1,0 +1,137 @@
+{
+  "E1": {
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "assessment": "Prediction and automatic-transcription inspection; no qualified human listening assessment",
+    "observation": "Whisper splits antidisestablishmentarianism into 'entire establishment Aryanism' while retaining most of the sentence. This flags the long word as a weak point; the duration plot shows its allocation rather than resolving whether the error is pronunciation or recognition."
+  },
+  "E2a": {
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "assessment": "Prediction and automatic-transcription inspection; no qualified human listening assessment",
+    "observation": "The frontend supplies noun stress for conduct, and Whisper reproduces the sentence. Its duration, pitch and energy pattern can be compared with E2b, but the recognizer does not measure how convincingly the stress contrast is spoken."
+  },
+  "E2b": {
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "assessment": "Prediction and automatic-transcription inspection; no qualified human listening assessment",
+    "observation": "The verb pronunciation of conduct differs from E2a in the input stress pattern. Whisper reproduces this sentence too. The contrast is explicitly supplied by text processing rather than learned from raw spelling alone."
+  },
+  "E3": {
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "assessment": "Prediction and automatic-transcription inspection; no qualified human listening assessment",
+    "observation": "The input keeps rhyth and the letter-name m separate, while Whisper returns ordinary 'rhythm'. This is a useful failure case: recognition can smooth over the unusual word boundary even though the model receives separate units."
+  },
+  "E4": {
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "assessment": "Prediction and automatic-transcription inspection; no qualified human listening assessment",
+    "observation": "The normalizer expands the date and 10:45 AM, including 'ay em'. Whisper nevertheless returns 'p.m.' and corrupts the andaroo/should-arrive span. Correct symbolic expansion does not by itself solve difficult-word or acoustic errors."
+  },
+  "T1": {
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "assessment": "Corrected PDF input and current numerical prediction inspection; no new ASR run or qualified listening assessment",
+    "observation": "The technical word న్యూరోఫార్మకోలాజికల్ is kept as written in the assignment. Its unit allocations and changing F0/energy show how the model handles the long span. The continuous F0 trace should be read alongside the long final pause, not as evidence of voicing throughout.",
+    "numerical_summary": {
+      "duration_seconds": 6.199727891156463,
+      "units": 68,
+      "longest_speech_unit": [
+        "te_au",
+        139.31972789115645
+      ],
+      "end_silence_ms": 545.6689342403628,
+      "pitch_range_hz": [
+        152.0403594970703,
+        312.5453186035156
+      ],
+      "energy_range_stft_l2": [
+        0.05165672302246094,
+        94.63844299316406
+      ]
+    }
+  },
+  "T2a": {
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "assessment": "Corrected PDF input and current numerical prediction inspection; no new ASR run or qualified listening assessment",
+    "observation": "పట్టు and చాలా are separate words in the input. Their boundaries can be traced individually, though the frontend flattens the same unit sequence used for synthesis. Meaning is not an explicit model input; compare the timing and pitch pattern with the silk-cloth context in T2b.",
+    "numerical_summary": {
+      "duration_seconds": 3.8545124716553287,
+      "units": 33,
+      "longest_speech_unit": [
+        "te_aa",
+        162.53968253968253
+      ],
+      "end_silence_ms": 766.2585034013606,
+      "pitch_range_hz": [
+        157.47076416015625,
+        275.7022705078125
+      ],
+      "energy_range_stft_l2": [
+        -0.05079841613769531,
+        89.29329681396484
+      ]
+    }
+  },
+  "T2b": {
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "assessment": "Corrected PDF input and current numerical prediction inspection; no new ASR run or qualified listening assessment",
+    "observation": "This sentence uses పట్టు in the silk-cloth context. The input preserves the boundary before చీరను and the spelling వచ్చింది. The large trailing duration allocation is silence-labelled, so it represents an end pause rather than a stretched final speech sound.",
+    "numerical_summary": {
+      "duration_seconds": 4.330521541950113,
+      "units": 39,
+      "longest_speech_unit": [
+        "te_aa",
+        162.53968253968253
+      ],
+      "end_silence_ms": 1149.3877551020407,
+      "pitch_range_hz": [
+        154.0194549560547,
+        263.0611267089844
+      ],
+      "energy_range_stft_l2": [
+        0.5292625427246094,
+        97.8880386352539
+      ]
+    }
+  },
+  "T3": {
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "assessment": "Corrected PDF input and current numerical prediction inspection; no new ASR run or qualified listening assessment",
+    "observation": "The assignment's అడ విలో split is retained. The duration plot is dominated by the final silence unit, while speech units are much shorter. The small negative energy prediction is an unconstrained regression error; it is not a negative acoustic measurement.",
+    "numerical_summary": {
+      "duration_seconds": 3.6687528344671203,
+      "units": 33,
+      "longest_speech_unit": [
+        "te_i",
+        150.92970521541952
+      ],
+      "end_silence_ms": 1137.7777777777778,
+      "pitch_range_hz": [
+        154.6315155029297,
+        304.0003662109375
+      ],
+      "energy_range_stft_l2": [
+        -0.12518310546875,
+        85.80484771728516
+      ]
+    }
+  },
+  "T4": {
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "assessment": "Corrected PDF input and current numerical prediction inspection; no new ASR run or qualified listening assessment",
+    "observation": "The year, ordinal date and time are expanded before inference, and the closing word is సిద్ధంగా. This longer sentence contains several silence-labelled allocations. The plots show timing and variance variation across the expanded words; spoken-number accuracy still needs listening.",
+    "numerical_summary": {
+      "duration_seconds": 11.075918367346938,
+      "units": 132,
+      "longest_speech_unit": [
+        "te_ii",
+        162.53968253968253
+      ],
+      "end_silence_ms": 940.408163265306,
+      "pitch_range_hz": [
+        158.117919921875,
+        293.8680114746094
+      ],
+      "energy_range_stft_l2": [
+        0.4020709991455078,
+        83.10039520263672
+      ]
+    }
+  }
+}

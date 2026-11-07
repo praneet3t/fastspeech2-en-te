@@ -1,0 +1,7 @@
+{
+  "step": 8000,
+  "stop_reason": "validation_plateau",
+  "best_validation": 3.582084071566895,
+  "elapsed_seconds": 2053.779333448,
+  "checkpoint": "English/checkpoints/best.pt"
+}

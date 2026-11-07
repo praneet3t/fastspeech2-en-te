@@ -1,0 +1,93 @@
+{
+  "total": 3.879723008462629,
+  "mel": 0.872666848314655,
+  "postnet_mel": 0.8726829998072719,
+  "pitch": 1.2520351716458193,
+  "energy": 0.5614964023227701,
+  "duration": 0.3208415863721126,
+  "duration_mae_frames": 4.521992857765003,
+  "validation_mode": "teacher-forced ground-truth duration, pitch and energy conditioning",
+  "total_parameters": 36670273,
+  "trainable_parameters": 34572099,
+  "pitch_rmse_hz_mostly_voiced_units": 66.32186288404371,
+  "pitch_evaluated_units": 19379,
+  "energy_rmse_stft_l2": 20.502843633555806,
+  "pitch_evaluation": "continuous target, units with >=80% voiced frames and nonzero duration; teacher-forced path",
+  "checkpoint_step": 8000,
+  "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+  "language": "english",
+  "free_running_validation_lengths": [
+    {
+      "source_id": "test-00000-of-00003:000009",
+      "predicted_frames": 359,
+      "reference_frames": 340,
+      "duration_ratio": 1.0558823529411765
+    },
+    {
+      "source_id": "test-00000-of-00003:000018",
+      "predicted_frames": 134,
+      "reference_frames": 163,
+      "duration_ratio": 0.8220858895705522
+    },
+    {
+      "source_id": "test-00000-of-00003:000026",
+      "predicted_frames": 899,
+      "reference_frames": 1261,
+      "duration_ratio": 0.7129262490087233
+    },
+    {
+      "source_id": "test-00000-of-00003:000031",
+      "predicted_frames": 133,
+      "reference_frames": 127,
+      "duration_ratio": 1.047244094488189
+    },
+    {
+      "source_id": "test-00000-of-00003:000037",
+      "predicted_frames": 331,
+      "reference_frames": 336,
+      "duration_ratio": 0.9851190476190477
+    },
+    {
+      "source_id": "test-00000-of-00003:000041",
+      "predicted_frames": 340,
+      "reference_frames": 430,
+      "duration_ratio": 0.7906976744186046
+    },
+    {
+      "source_id": "test-00000-of-00003:000045",
+      "predicted_frames": 468,
+      "reference_frames": 957,
+      "duration_ratio": 0.4890282131661442
+    },
+    {
+      "source_id": "test-00000-of-00003:000058",
+      "predicted_frames": 202,
+      "reference_frames": 223,
+      "duration_ratio": 0.905829596412556
+    },
+    {
+      "source_id": "test-00000-of-00003:000060",
+      "predicted_frames": 390,
+      "reference_frames": 558,
+      "duration_ratio": 0.6989247311827957
+    },
+    {
+      "source_id": "test-00000-of-00003:000072",
+      "predicted_frames": 391,
+      "reference_frames": 432,
+      "duration_ratio": 0.9050925925925926
+    },
+    {
+      "source_id": "test-00000-of-00003:000085",
+      "predicted_frames": 246,
+      "reference_frames": 341,
+      "duration_ratio": 0.7214076246334311
+    },
+    {
+      "source_id": "test-00000-of-00003:000098",
+      "predicted_frames": 477,
+      "reference_frames": 449,
+      "duration_ratio": 1.0623608017817372
+    }
+  ]
+}

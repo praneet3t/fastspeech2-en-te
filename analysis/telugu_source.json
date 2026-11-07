@@ -1,0 +1,6 @@
+{
+  "dataset": "SPRINGLab/IndicTTS_Telugu",
+  "revision": "7ab3c18491bef3f5d4e820c2701b5f78f54031d6",
+  "local_path": "data/raw/telugu",
+  "total_utterances": 8576
+}

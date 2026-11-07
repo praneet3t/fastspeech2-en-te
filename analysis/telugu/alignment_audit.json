@@ -1,0 +1,32 @@
+{
+  "accepted_utterances": 1815,
+  "mel_frames": 1844005,
+  "units": 230122,
+  "zero_duration_units": 54,
+  "silence_frame_fraction": 0.2888175465901665,
+  "speech_unit_duration_frames_percentiles": [
+    0.0,
+    4.0,
+    5.0,
+    8.0,
+    12.0,
+    15.0,
+    112.0
+  ],
+  "duration_convention": "round shared boundaries once, last boundary=floor(samples/256)",
+  "manual_phone_boundary_accuracy": "not established; no hand-labelled alignment benchmark",
+  "examples": [
+    {
+      "source_id": "train-00001-of-00004:000421",
+      "plot": "analysis/telugu/alignment_examples/train-00001-of-00004_000421.png"
+    },
+    {
+      "source_id": "train-00003-of-00004:001097",
+      "plot": "analysis/telugu/alignment_examples/train-00003-of-00004_001097.png"
+    },
+    {
+      "source_id": "train-00001-of-00004:001217",
+      "plot": "analysis/telugu/alignment_examples/train-00001-of-00004_001217.png"
+    }
+  ]
+}

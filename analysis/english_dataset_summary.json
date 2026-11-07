@@ -1,0 +1,98 @@
+{
+  "dataset": {
+    "repo": "ai4bharat/Svarah",
+    "revision": "ebbf7777fe771490696a3f7b007097606fa8c924"
+  },
+  "seed": 2026,
+  "max_seconds": 30,
+  "strategy": "seeded connected transcript/recording groups with duration-weighted speaker deficits; whole utterances",
+  "exclusions": {
+    "too_short": 215,
+    "text_frontend: Unsupported English input symbols: '+'": 13,
+    "text_frontend: Unsupported English input symbols: '%'": 21,
+    "text_frontend: Unsupported English input symbols: '&'": 15,
+    "text_frontend: Unsupported English input symbols: '@'": 5,
+    "excessive_clipping": 2,
+    "text_frontend: Unsupported English input symbols: '$'": 1,
+    "text_frontend: Unsupported English input symbols: '@@'": 1,
+    "text_frontend: Unsupported English input symbols: '_'": 1,
+    "text_frontend: Unsupported English input symbols: '%%'": 1
+  },
+  "audited_utterances": 6656,
+  "splits": {
+    "train": {
+      "utterances": 3382,
+      "hours": 5.001058645833333,
+      "speaker_count": null,
+      "conditioning_groups": 1,
+      "hours_per_group": {
+        "unknown_mixture": 5.001058645833334
+      },
+      "hours_per_speaker": null,
+      "duration_percentiles_seconds": [
+        0.4001875,
+        2.141953125,
+        4.44,
+        7.26809375,
+        13.708743749999998,
+        29.4405625
+      ]
+    },
+    "val": {
+      "utterances": 660,
+      "hours": 1.0109107291666666,
+      "speaker_count": null,
+      "conditioning_groups": 1,
+      "hours_per_group": {
+        "unknown_mixture": 1.0109107291666668
+      },
+      "hours_per_speaker": null,
+      "duration_percentiles_seconds": [
+        0.4020625,
+        2.20096875,
+        4.2810625,
+        7.6849375,
+        13.712687499999996,
+        29.8710625
+      ]
+    },
+    "unused": {
+      "utterances": 2339,
+      "hours": 3.463854635416667,
+      "speaker_count": null,
+      "conditioning_groups": 1,
+      "hours_per_group": {
+        "unknown_mixture": 3.4638546354166673
+      },
+      "hours_per_speaker": null,
+      "duration_percentiles_seconds": [
+        0.4005625,
+        1.8151875,
+        4.218625,
+        7.20828125,
+        14.332093749999999,
+        29.6965
+      ]
+    }
+  },
+  "audited_hours": 9.61444380208335,
+  "raw_duration_percentiles_seconds": [
+    0.098,
+    1.815234375,
+    4.20834375,
+    7.2,
+    13.85771875,
+    22.791990624999997,
+    29.8710625
+  ],
+  "sample_rate_counts": {
+    "16000": 6656
+  },
+  "channel_counts": {
+    "1": 6656
+  },
+  "repeated_normalized_transcript_rows": 1114,
+  "speaker_identity_status": "unrecoverable; unknown_mixture is a bookkeeping group, NOT one actual speaker",
+  "known_speaker_count": null,
+  "transcript_policy": "Split grouping uses NFC/casefold and Python non-word removal, including Telugu vowel marks; conservative collisions share one split. Raw text/model units retain marks. Exact duplicate checks retain marks; no additional fuzzy matching."
+}

@@ -1,0 +1,70 @@
+language: english
+seed: 2026
+dataset:
+  repo: ai4bharat/Svarah
+  revision: ebbf7777fe771490696a3f7b007097606fa8c924
+selection:
+  train_seconds: 18000
+  val_seconds: 3600
+  max_seconds: 30
+audio:
+  sample_rate: 22050
+  n_fft: 1024
+  hop_length: 256
+  win_length: 1024
+  n_mels: 80
+  fmin: 0
+  fmax: 8000
+alignment:
+  mfa_executable: mfa
+  jobs: 16
+  acoustic_model: english_us_arpa
+model:
+  transformer:
+    encoder_layer: 4
+    encoder_head: 2
+    encoder_hidden: 256
+    decoder_layer: 6
+    decoder_head: 2
+    decoder_hidden: 256
+    conv_filter_size: 1024
+    conv_kernel_size:
+    - 9
+    - 1
+    encoder_dropout: 0.2
+    decoder_dropout: 0.2
+  variance_predictor:
+    filter_size: 256
+    kernel_size: 3
+    dropout: 0.5
+  variance_embedding:
+    pitch_quantization: linear
+    energy_quantization: linear
+    n_bins: 256
+  multi_speaker: false
+  max_seq_len: 4096
+training:
+  batch_size: 16
+  gradient_accumulation: 2
+  precision: bf16
+  total_steps: 30000
+  warmup_steps: 4000
+  learning_rate_scale: 1.0
+  betas:
+  - 0.9
+  - 0.98
+  epsilon: 1.0e-09
+  gradient_clip: 1.0
+  log_interval: 25
+  validation_interval: 500
+  checkpoint_interval: 500
+  workers: 4
+  checkpoint_dir: English/checkpoints
+  min_steps: 8000
+  early_stopping_patience: 8
+  relative_min_improvement: 0.001
+  length_bucket_multiplier: 1
+vocoder:
+  checkpoint: artifacts/vocoder/generator_universal.pth.tar
+  config: vendor/fastspeech2/hifigan/config.json
+inference_checkpoint: English/checkpoints/selected.pt

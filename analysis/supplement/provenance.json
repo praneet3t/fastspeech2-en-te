@@ -1,0 +1,21 @@
+{
+  "vocoder": {
+    "url": "https://raw.githubusercontent.com/ming024/FastSpeech2/d4e79eb52e8b01d24703b2dfc0385544092958f3/hifigan/generator_universal.pth.tar.zip",
+    "upstream_commit": "d4e79eb52e8b01d24703b2dfc0385544092958f3",
+    "sha256": "771eaf4876485a35e25577563d390c262e23c2421e4a8c929eacfde34a5b7a60",
+    "archive_sha256": "1fd93a04431b14296cf1d3f66a6fea89c2fdeb8f3b900a962e13ad21f67f9149",
+    "architecture": "HiFi-GAN V1 universal checkpoint distributed by ming024",
+    "conditioning": "22050 Hz, FFT/window 1024, hop 256, 80 Slaney mel bands 0–8000 Hz, natural log magnitude clamp 1e-5",
+    "distribution": "Original upstream download; this project does not redistribute pretrained weights"
+  },
+  "datasets": {
+    "english": {
+      "repo": "ai4bharat/Svarah",
+      "revision": "ebbf7777fe771490696a3f7b007097606fa8c924"
+    },
+    "telugu": {
+      "repo": "SPRINGLab/IndicTTS_Telugu",
+      "revision": "7ab3c18491bef3f5d4e820c2701b5f78f54031d6"
+    }
+  }
+}

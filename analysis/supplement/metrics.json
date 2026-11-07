@@ -1,0 +1,1370 @@
+[
+  {
+    "language": "english",
+    "case_id": "e1",
+    "source_id": "test-00000-of-00003:000562",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 225536,
+      "duration_seconds": 10.228390022675738,
+      "rms": 0.11290132113217007,
+      "peak": 0.5691611170768738,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 201.89808551318873,
+      "common_voiced_frames": 598,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e1",
+    "source_id": "test-00000-of-00003:000562",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 225536,
+      "duration_seconds": 10.228390022675738,
+      "rms": 0.1039320085635743,
+      "peak": 0.6589493155479431,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.21410630643367767,
+      "voiced_f0_median_hz": 206.1456875495464,
+      "common_voiced_frames": 555,
+      "f0_rmse_common_voiced_hz": 9.70456078435086,
+      "voiced_decision_agreement": 0.8333333333333334,
+      "frame_logmel_l1": 0.2920647859573364,
+      "frame_logenergy_mae": 0.12255188822746277
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e2",
+    "source_id": "test-00000-of-00003:001705",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 160256,
+      "duration_seconds": 7.267845804988662,
+      "rms": 0.04646340660714621,
+      "peak": 0.3203490972518921,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 67.57300776583367,
+      "common_voiced_frames": 478,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e2",
+    "source_id": "test-00000-of-00003:001705",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 160256,
+      "duration_seconds": 7.267845804988662,
+      "rms": 0.04346625101715058,
+      "peak": 0.30093398690223694,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.1767805516719818,
+      "voiced_f0_median_hz": 165.20213467677524,
+      "common_voiced_frames": 262,
+      "f0_rmse_common_voiced_hz": 61.33488103207217,
+      "voiced_decision_agreement": 0.631578947368421,
+      "frame_logmel_l1": 0.24381400644779205,
+      "frame_logenergy_mae": 0.10132067650556564
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e3",
+    "source_id": "test-00002-of-00003:000422",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 228352,
+      "duration_seconds": 10.356099773242631,
+      "rms": 0.046691259699581086,
+      "peak": 0.4816684424877167,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 93.83506953495399,
+      "common_voiced_frames": 673,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e3",
+    "source_id": "test-00002-of-00003:000422",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 228352,
+      "duration_seconds": 10.356099773242631,
+      "rms": 0.041791031012029946,
+      "peak": 0.5111729502677917,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.18191124498844147,
+      "voiced_f0_median_hz": 91.94541229173036,
+      "common_voiced_frames": 554,
+      "f0_rmse_common_voiced_hz": 6.687084688178899,
+      "voiced_decision_agreement": 0.8253079507278835,
+      "frame_logmel_l1": 0.2418106198310852,
+      "frame_logenergy_mae": 0.1272444725036621
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e4",
+    "source_id": "test-00002-of-00003:000208",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 188160,
+      "duration_seconds": 8.533333333333333,
+      "rms": 0.03258174600027953,
+      "peak": 0.23783686757087708,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 174.50719275329624,
+      "common_voiced_frames": 349,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e4",
+    "source_id": "test-00002-of-00003:000208",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 188160,
+      "duration_seconds": 8.533333333333333,
+      "rms": 0.03098753542696593,
+      "peak": 0.28219518065452576,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.17078153789043427,
+      "voiced_f0_median_hz": 196.50960227741479,
+      "common_voiced_frames": 188,
+      "f0_rmse_common_voiced_hz": 73.51552386414748,
+      "voiced_decision_agreement": 0.6385869565217391,
+      "frame_logmel_l1": 0.2418244183063507,
+      "frame_logenergy_mae": 0.08978050202131271
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e5",
+    "source_id": "test-00000-of-00003:000272",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 171776,
+      "duration_seconds": 7.790294784580499,
+      "rms": 0.0721489347508911,
+      "peak": 0.5372328758239746,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 130.69317351804696,
+      "common_voiced_frames": 337,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e5",
+    "source_id": "test-00000-of-00003:000272",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 171776,
+      "duration_seconds": 7.790294784580499,
+      "rms": 0.06366763943552842,
+      "peak": 0.5397711396217346,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.2047494798898697,
+      "voiced_f0_median_hz": 128.25875986238145,
+      "common_voiced_frames": 297,
+      "f0_rmse_common_voiced_hz": 5.463567962951402,
+      "voiced_decision_agreement": 0.8943452380952381,
+      "frame_logmel_l1": 0.2766948938369751,
+      "frame_logenergy_mae": 0.15696518123149872
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e6",
+    "source_id": "test-00002-of-00003:000465",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 199680,
+      "duration_seconds": 9.05578231292517,
+      "rms": 0.08003636178329923,
+      "peak": 0.7847529649734497,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 118.65654080796583,
+      "common_voiced_frames": 360,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e6",
+    "source_id": "test-00002-of-00003:000465",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 199680,
+      "duration_seconds": 9.05578231292517,
+      "rms": 0.07121695370708643,
+      "peak": 0.7636286616325378,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.17965306341648102,
+      "voiced_f0_median_hz": 116.48636968774791,
+      "common_voiced_frames": 322,
+      "f0_rmse_common_voiced_hz": 24.45341706856988,
+      "voiced_decision_agreement": 0.8783610755441741,
+      "frame_logmel_l1": 0.24162161350250244,
+      "frame_logenergy_mae": 0.11114858090877533
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e1",
+    "source_id": "test-00000-of-00003:000562",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 225536,
+      "duration_seconds": 10.228390022675738,
+      "rms": 0.048256420308350104,
+      "peak": 0.28958436846733093,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 1.2115939855575562,
+      "voiced_f0_median_hz": 194.1707125797337,
+      "common_voiced_frames": 515,
+      "f0_rmse_common_voiced_hz": 43.25175404166327,
+      "voiced_decision_agreement": 0.7482993197278912,
+      "frame_logmel_l1": 1.3152204751968384,
+      "frame_logenergy_mae": 0.8894900679588318
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.2002673149108887,
+      "aligned_model_mel_l1": 1.2991849184036255
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.912,
+      "log_duration_mse": 0.20384597349263742,
+      "pitch_standardized_mse": 0.3186677202650522,
+      "energy_standardized_mse": 0.9429476349682672
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e1",
+    "source_id": "test-00000-of-00003:000562",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 148992,
+      "duration_seconds": 6.757006802721088,
+      "rms": 0.046979336313220786,
+      "peak": 0.26018255949020386,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.6606129398410897,
+      "coarse_dtw_logmel_l1": 1.6886924505233765,
+      "voiced_f0_median_hz": 172.69627790967377
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.6808993816375732
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.912,
+      "log_duration_mse": 0.20384597349263742,
+      "pitch_standardized_mse": 0.3186677202650522,
+      "energy_standardized_mse": 0.9429476349682672
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e2",
+    "source_id": "test-00000-of-00003:001705",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 160256,
+      "duration_seconds": 7.267845804988662,
+      "rms": 0.025340180151405267,
+      "peak": 0.20760948956012726,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.7839779853820801,
+      "voiced_f0_median_hz": 86.23605423122001,
+      "common_voiced_frames": 282,
+      "f0_rmse_common_voiced_hz": 50.97756812494123,
+      "voiced_decision_agreement": 0.5725677830940988,
+      "frame_logmel_l1": 0.8396300077438354,
+      "frame_logenergy_mae": 0.6413885951042175
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7364185452461243,
+      "aligned_model_mel_l1": 0.7873570919036865
+    },
+    "variance_errors": {
+      "duration_mae_frames": 6.875,
+      "log_duration_mse": 0.4233849823084905,
+      "pitch_standardized_mse": 2.038389044337557,
+      "energy_standardized_mse": 0.5959618946843445
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e2",
+    "source_id": "test-00000-of-00003:001705",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 126976,
+      "duration_seconds": 5.758548752834467,
+      "rms": 0.044535472601676666,
+      "peak": 0.31754598021507263,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.792332268370607,
+      "coarse_dtw_logmel_l1": 0.7806028127670288,
+      "voiced_f0_median_hz": 166.2953608981774
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7638525366783142
+    },
+    "variance_errors": {
+      "duration_mae_frames": 6.875,
+      "log_duration_mse": 0.4233849823084905,
+      "pitch_standardized_mse": 2.038389044337557,
+      "energy_standardized_mse": 0.5959618946843445
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e3",
+    "source_id": "test-00002-of-00003:000422",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 228352,
+      "duration_seconds": 10.356099773242631,
+      "rms": 0.03314313144560664,
+      "peak": 0.30147597193717957,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.8128449320793152,
+      "voiced_f0_median_hz": 105.75769543575925,
+      "common_voiced_frames": 543,
+      "f0_rmse_common_voiced_hz": 15.74815113707933,
+      "voiced_decision_agreement": 0.812989921612542,
+      "frame_logmel_l1": 0.9028605818748474,
+      "frame_logenergy_mae": 0.5394758582115173
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.793860137462616,
+      "aligned_model_mel_l1": 0.874259352684021
+    },
+    "variance_errors": {
+      "duration_mae_frames": 3.3577981651376145,
+      "log_duration_mse": 0.2606488209589739,
+      "pitch_standardized_mse": 1.0790732306444026,
+      "energy_standardized_mse": 0.11207108810784008
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e3",
+    "source_id": "test-00002-of-00003:000422",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 148480,
+      "duration_seconds": 6.733786848072563,
+      "rms": 0.04234748386697115,
+      "peak": 0.25331440567970276,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.6502242152466368,
+      "coarse_dtw_logmel_l1": 1.4286890029907227,
+      "voiced_f0_median_hz": 171.52975986037143
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.438886046409607
+    },
+    "variance_errors": {
+      "duration_mae_frames": 3.3577981651376145,
+      "log_duration_mse": 0.2606488209589739,
+      "pitch_standardized_mse": 1.0790732306444026,
+      "energy_standardized_mse": 0.11207108810784008
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e4",
+    "source_id": "test-00002-of-00003:000208",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 188160,
+      "duration_seconds": 8.533333333333333,
+      "rms": 0.020304683149700915,
+      "peak": 0.17914098501205444,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.7358710169792175,
+      "voiced_f0_median_hz": 88.5350648345886,
+      "common_voiced_frames": 138,
+      "f0_rmse_common_voiced_hz": 87.79910926881364,
+      "voiced_decision_agreement": 0.5733695652173914,
+      "frame_logmel_l1": 0.8117095232009888,
+      "frame_logenergy_mae": 0.5140271186828613
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7172480225563049,
+      "aligned_model_mel_l1": 0.7834518551826477
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.5428571428571427,
+      "log_duration_mse": 0.19547914953886408,
+      "pitch_standardized_mse": 1.4240240026079451,
+      "energy_standardized_mse": 0.4838285882215898
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e4",
+    "source_id": "test-00002-of-00003:000208",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 184064,
+      "duration_seconds": 8.347573696145124,
+      "rms": 0.032044232885459864,
+      "peak": 0.22693853080272675,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.9782312925170068,
+      "coarse_dtw_logmel_l1": 1.2109161615371704,
+      "voiced_f0_median_hz": 170.08041743238445
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.2435489892959595
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.5428571428571427,
+      "log_duration_mse": 0.19547914953886408,
+      "pitch_standardized_mse": 1.4240240026079451,
+      "energy_standardized_mse": 0.4838285882215898
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e5",
+    "source_id": "test-00000-of-00003:000272",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 171776,
+      "duration_seconds": 7.790294784580499,
+      "rms": 0.03918816984754536,
+      "peak": 0.3619947135448456,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 1.1235464811325073,
+      "voiced_f0_median_hz": 112.70883505455271,
+      "common_voiced_frames": 275,
+      "f0_rmse_common_voiced_hz": 15.148005975837862,
+      "voiced_decision_agreement": 0.6532738095238095,
+      "frame_logmel_l1": 1.2325868606567383,
+      "frame_logenergy_mae": 0.7616584897041321
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.1441280841827393,
+      "aligned_model_mel_l1": 1.2486562728881836
+    },
+    "variance_errors": {
+      "duration_mae_frames": 5.2835820895522385,
+      "log_duration_mse": 0.3371585999529638,
+      "pitch_standardized_mse": 1.0424771043742727,
+      "energy_standardized_mse": 0.42776059233055275
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e5",
+    "source_id": "test-00000-of-00003:000272",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 114432,
+      "duration_seconds": 5.189659863945578,
+      "rms": 0.043570094396649064,
+      "peak": 0.26181477308273315,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.6661698956780924,
+      "coarse_dtw_logmel_l1": 2.177711248397827,
+      "voiced_f0_median_hz": 171.99896234853904
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 2.148232936859131
+    },
+    "variance_errors": {
+      "duration_mae_frames": 5.2835820895522385,
+      "log_duration_mse": 0.3371585999529638,
+      "pitch_standardized_mse": 1.0424771043742727,
+      "energy_standardized_mse": 0.42776059233055275
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e6",
+    "source_id": "test-00002-of-00003:000465",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 199680,
+      "duration_seconds": 9.05578231292517,
+      "rms": 0.053170559495723094,
+      "peak": 0.38427799940109253,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.7276151180267334,
+      "voiced_f0_median_hz": 112.07635399662088,
+      "common_voiced_frames": 305,
+      "f0_rmse_common_voiced_hz": 15.05564808007895,
+      "voiced_decision_agreement": 0.6709346991037132,
+      "frame_logmel_l1": 0.8202927112579346,
+      "frame_logenergy_mae": 0.5999281406402588
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7030603289604187,
+      "aligned_model_mel_l1": 0.7895240783691406
+    },
+    "variance_errors": {
+      "duration_mae_frames": 5.114285714285714,
+      "log_duration_mse": 0.2543050769697901,
+      "pitch_standardized_mse": 0.6099219158854897,
+      "energy_standardized_mse": 0.239225413253975
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e6",
+    "source_id": "test-00002-of-00003:000465",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step1000",
+    "checkpoint_sha256": "a7d2944c0a55244baabd6a450c3230ad16c842d9921fd00b27090b57d6b7aaf6",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 112128,
+      "duration_seconds": 5.085170068027211,
+      "rms": 0.05394726365523928,
+      "peak": 0.346120148897171,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.5615384615384615,
+      "coarse_dtw_logmel_l1": 1.5386958122253418,
+      "voiced_f0_median_hz": 163.4712306758616
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.553079605102539
+    },
+    "variance_errors": {
+      "duration_mae_frames": 5.114285714285714,
+      "log_duration_mse": 0.2543050769697901,
+      "pitch_standardized_mse": 0.6099219158854897,
+      "energy_standardized_mse": 0.239225413253975
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e1",
+    "source_id": "test-00000-of-00003:000562",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 225536,
+      "duration_seconds": 10.228390022675738,
+      "rms": 0.10533529887125538,
+      "peak": 0.6015939712524414,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 1.074074625968933,
+      "voiced_f0_median_hz": 197.3947105584964,
+      "common_voiced_frames": 553,
+      "f0_rmse_common_voiced_hz": 33.22283345322316,
+      "voiced_decision_agreement": 0.7687074829931972,
+      "frame_logmel_l1": 1.175553321838379,
+      "frame_logenergy_mae": 0.4594613015651703
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.052578330039978,
+      "aligned_model_mel_l1": 1.1571154594421387
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.768,
+      "log_duration_mse": 0.2192507375438823,
+      "pitch_standardized_mse": 0.7129853672898596,
+      "energy_standardized_mse": 0.9539635298778484
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e1",
+    "source_id": "test-00000-of-00003:000562",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 181504,
+      "duration_seconds": 8.231473922902495,
+      "rms": 0.10657780618309878,
+      "peak": 0.743861198425293,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.8047673098751419,
+      "coarse_dtw_logmel_l1": 1.5480637550354004,
+      "voiced_f0_median_hz": 152.21134299583272
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.5129872560501099
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.768,
+      "log_duration_mse": 0.2192507375438823,
+      "pitch_standardized_mse": 0.7129853672898596,
+      "energy_standardized_mse": 0.9539635298778484
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e2",
+    "source_id": "test-00000-of-00003:001705",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 160256,
+      "duration_seconds": 7.267845804988662,
+      "rms": 0.03637068984064135,
+      "peak": 0.30083420872688293,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.7638906836509705,
+      "voiced_f0_median_hz": 86.73168413181176,
+      "common_voiced_frames": 276,
+      "f0_rmse_common_voiced_hz": 87.90402353646672,
+      "voiced_decision_agreement": 0.594896331738437,
+      "frame_logmel_l1": 0.8202515840530396,
+      "frame_logenergy_mae": 0.557766318321228
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7236849069595337,
+      "aligned_model_mel_l1": 0.7738080620765686
+    },
+    "variance_errors": {
+      "duration_mae_frames": 7.267857142857143,
+      "log_duration_mse": 0.45412040397508235,
+      "pitch_standardized_mse": 3.311529603246535,
+      "energy_standardized_mse": 0.3151726546831909
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e2",
+    "source_id": "test-00000-of-00003:001705",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 121856,
+      "duration_seconds": 5.526349206349207,
+      "rms": 0.0733091190122736,
+      "peak": 0.44617021083831787,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.7603833865814696,
+      "coarse_dtw_logmel_l1": 0.9237598776817322,
+      "voiced_f0_median_hz": 189.16700287536682
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.9169975519180298
+    },
+    "variance_errors": {
+      "duration_mae_frames": 7.267857142857143,
+      "log_duration_mse": 0.45412040397508235,
+      "pitch_standardized_mse": 3.311529603246535,
+      "energy_standardized_mse": 0.3151726546831909
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e3",
+    "source_id": "test-00002-of-00003:000422",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 228352,
+      "duration_seconds": 10.356099773242631,
+      "rms": 0.03574624229353779,
+      "peak": 0.3565678298473358,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.8144530653953552,
+      "voiced_f0_median_hz": 100.9798563389334,
+      "common_voiced_frames": 588,
+      "f0_rmse_common_voiced_hz": 12.899001602594605,
+      "voiced_decision_agreement": 0.8421052631578947,
+      "frame_logmel_l1": 0.9030444622039795,
+      "frame_logenergy_mae": 0.42329010367393494
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.8007953763008118,
+      "aligned_model_mel_l1": 0.8803547620773315
+    },
+    "variance_errors": {
+      "duration_mae_frames": 3.908256880733945,
+      "log_duration_mse": 0.30851929314689297,
+      "pitch_standardized_mse": 2.3071182238877244,
+      "energy_standardized_mse": 0.07324869126192095
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e3",
+    "source_id": "test-00002-of-00003:000422",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 179456,
+      "duration_seconds": 8.13859410430839,
+      "rms": 0.08816901534384865,
+      "peak": 0.6823524236679077,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.7858744394618834,
+      "coarse_dtw_logmel_l1": 1.307525873184204,
+      "voiced_f0_median_hz": 196.8355945223262
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.313854694366455
+    },
+    "variance_errors": {
+      "duration_mae_frames": 3.908256880733945,
+      "log_duration_mse": 0.30851929314689297,
+      "pitch_standardized_mse": 2.3071182238877244,
+      "energy_standardized_mse": 0.07324869126192095
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e4",
+    "source_id": "test-00002-of-00003:000208",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 188160,
+      "duration_seconds": 8.533333333333333,
+      "rms": 0.02458703285678033,
+      "peak": 0.1845126450061798,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.722934901714325,
+      "voiced_f0_median_hz": 177.56961261417837,
+      "common_voiced_frames": 207,
+      "f0_rmse_common_voiced_hz": 51.60070697162377,
+      "voiced_decision_agreement": 0.6725543478260869,
+      "frame_logmel_l1": 0.7971328496932983,
+      "frame_logenergy_mae": 0.4371553659439087
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7071918249130249,
+      "aligned_model_mel_l1": 0.771047830581665
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.9047619047619047,
+      "log_duration_mse": 0.23615068916217416,
+      "pitch_standardized_mse": 1.3069464429109747,
+      "energy_standardized_mse": 0.6571807080762603
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e4",
+    "source_id": "test-00002-of-00003:000208",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 188160,
+      "duration_seconds": 8.533333333333333,
+      "rms": 0.07498171357649569,
+      "peak": 0.6282978653907776,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 1.0896005630493164,
+      "voiced_f0_median_hz": 167.41471302890366
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.093813180923462
+    },
+    "variance_errors": {
+      "duration_mae_frames": 2.9047619047619047,
+      "log_duration_mse": 0.23615068916217416,
+      "pitch_standardized_mse": 1.3069464429109747,
+      "energy_standardized_mse": 0.6571807080762603
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e5",
+    "source_id": "test-00000-of-00003:000272",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 171776,
+      "duration_seconds": 7.790294784580499,
+      "rms": 0.059845558888846934,
+      "peak": 0.5081954598426819,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 1.1229057312011719,
+      "voiced_f0_median_hz": 139.1407763964452,
+      "common_voiced_frames": 301,
+      "f0_rmse_common_voiced_hz": 14.863582079506365,
+      "voiced_decision_agreement": 0.6904761904761905,
+      "frame_logmel_l1": 1.2294831275939941,
+      "frame_logenergy_mae": 0.5957162976264954
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.1363171339035034,
+      "aligned_model_mel_l1": 1.236154556274414
+    },
+    "variance_errors": {
+      "duration_mae_frames": 5.7164179104477615,
+      "log_duration_mse": 0.43519386503239693,
+      "pitch_standardized_mse": 1.6234751823804747,
+      "energy_standardized_mse": 0.1897166732611679
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e5",
+    "source_id": "test-00000-of-00003:000272",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 125440,
+      "duration_seconds": 5.688888888888889,
+      "rms": 0.10044632577050085,
+      "peak": 0.6633976101875305,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.7302533532041728,
+      "coarse_dtw_logmel_l1": 2.0513997077941895,
+      "voiced_f0_median_hz": 210.05574232916115
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 2.049959182739258
+    },
+    "variance_errors": {
+      "duration_mae_frames": 5.7164179104477615,
+      "log_duration_mse": 0.43519386503239693,
+      "pitch_standardized_mse": 1.6234751823804747,
+      "energy_standardized_mse": 0.1897166732611679
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e6",
+    "source_id": "test-00002-of-00003:000465",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 199680,
+      "duration_seconds": 9.05578231292517,
+      "rms": 0.0608605812462879,
+      "peak": 0.7401289343833923,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.6829068064689636,
+      "voiced_f0_median_hz": 111.83212829341159,
+      "common_voiced_frames": 310,
+      "f0_rmse_common_voiced_hz": 15.041811907280998,
+      "voiced_decision_agreement": 0.6875800256081946,
+      "frame_logmel_l1": 0.8268671035766602,
+      "frame_logenergy_mae": 0.5104678273200989
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.6437828540802002,
+      "aligned_model_mel_l1": 0.7953894138336182
+    },
+    "variance_errors": {
+      "duration_mae_frames": 6.4,
+      "log_duration_mse": 0.40203142110084383,
+      "pitch_standardized_mse": 0.48815919366607097,
+      "energy_standardized_mse": 0.34364366242081273
+    }
+  },
+  {
+    "language": "english",
+    "case_id": "e6",
+    "source_id": "test-00002-of-00003:000465",
+    "speaker_id": "unknown_mixture",
+    "checkpoint": "step8000",
+    "checkpoint_sha256": "39e68db35d6d9b480003d122665edc05bb9fcc48155fbd7ec24483e99e48c515",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 119808,
+      "duration_seconds": 5.433469387755102,
+      "rms": 0.07504429760757145,
+      "peak": 0.4837936758995056,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.6,
+      "coarse_dtw_logmel_l1": 1.2728257179260254,
+      "voiced_f0_median_hz": 193.42217678365876
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 1.2741941213607788
+    },
+    "variance_errors": {
+      "duration_mae_frames": 6.4,
+      "log_duration_mse": 0.40203142110084383,
+      "pitch_standardized_mse": 0.48815919366607097,
+      "energy_standardized_mse": 0.34364366242081273
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t1",
+    "source_id": "train-00000-of-00004:000901",
+    "speaker_id": "female",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 147456,
+      "duration_seconds": 6.6873469387755105,
+      "rms": 0.08738178124564357,
+      "peak": 0.6320490837097168,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 197.25965863018115,
+      "common_voiced_frames": 349,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t1",
+    "source_id": "train-00000-of-00004:000901",
+    "speaker_id": "female",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 147456,
+      "duration_seconds": 6.6873469387755105,
+      "rms": 0.07951391421909944,
+      "peak": 0.4955027103424072,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.17972977459430695,
+      "voiced_f0_median_hz": 196.58196323592233,
+      "common_voiced_frames": 317,
+      "f0_rmse_common_voiced_hz": 9.660723163162803,
+      "voiced_decision_agreement": 0.9081455805892548,
+      "frame_logmel_l1": 0.24928508698940277,
+      "frame_logenergy_mae": 0.18352648615837097
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t2",
+    "source_id": "train-00001-of-00004:001903",
+    "speaker_id": "male",
+    "checkpoint": null,
+    "mode": "original",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 114944,
+      "duration_seconds": 5.2128798185941045,
+      "rms": 0.05920732015877145,
+      "peak": 0.4781944453716278,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.0,
+      "voiced_f0_median_hz": 197.60923217093813,
+      "common_voiced_frames": 224,
+      "f0_rmse_common_voiced_hz": 0.0,
+      "voiced_decision_agreement": 1.0,
+      "frame_logmel_l1": 0.0,
+      "frame_logenergy_mae": 0.0
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t2",
+    "source_id": "train-00001-of-00004:001903",
+    "speaker_id": "male",
+    "checkpoint": null,
+    "mode": "reference_vocoder",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 114944,
+      "duration_seconds": 5.2128798185941045,
+      "rms": 0.055963918719009485,
+      "peak": 0.4822048544883728,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.18120813369750977,
+      "voiced_f0_median_hz": 205.064162609783,
+      "common_voiced_frames": 186,
+      "f0_rmse_common_voiced_hz": 6.516781877155515,
+      "voiced_decision_agreement": 0.8822222222222222,
+      "frame_logmel_l1": 0.25531238317489624,
+      "frame_logenergy_mae": 0.19427111744880676
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t1",
+    "source_id": "train-00000-of-00004:000901",
+    "speaker_id": "female",
+    "checkpoint": "step10500",
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 147456,
+      "duration_seconds": 6.6873469387755105,
+      "rms": 0.0835487099249365,
+      "peak": 0.5204087495803833,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.4496224820613861,
+      "voiced_f0_median_hz": 190.0988275939523,
+      "common_voiced_frames": 320,
+      "f0_rmse_common_voiced_hz": 12.668400285794501,
+      "voiced_decision_agreement": 0.8422876949740035,
+      "frame_logmel_l1": 0.5727272629737854,
+      "frame_logenergy_mae": 0.3606047034263611
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.41426119208335876,
+      "aligned_model_mel_l1": 0.5241031050682068
+    },
+    "variance_errors": {
+      "duration_mae_frames": 1.8695652173913044,
+      "log_duration_mse": 0.0565649586944701,
+      "pitch_standardized_mse": 0.677397855684736,
+      "energy_standardized_mse": 0.10716077731991144
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t1",
+    "source_id": "train-00000-of-00004:000901",
+    "speaker_id": "female",
+    "checkpoint": "step10500",
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 125440,
+      "duration_seconds": 5.688888888888889,
+      "rms": 0.0822289233128533,
+      "peak": 0.45723289251327515,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.8506944444444444,
+      "coarse_dtw_logmel_l1": 0.9749857187271118,
+      "voiced_f0_median_hz": 186.8998854168111
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.9575517773628235
+    },
+    "variance_errors": {
+      "duration_mae_frames": 1.8695652173913044,
+      "log_duration_mse": 0.0565649586944701,
+      "pitch_standardized_mse": 0.677397855684736,
+      "energy_standardized_mse": 0.10716077731991144
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t2",
+    "source_id": "train-00001-of-00004:001903",
+    "speaker_id": "male",
+    "checkpoint": "step10500",
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "mode": "gt_variance",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 114944,
+      "duration_seconds": 5.2128798185941045,
+      "rms": 0.0665017651632394,
+      "peak": 0.49915611743927,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 1.0,
+      "coarse_dtw_logmel_l1": 0.49634742736816406,
+      "voiced_f0_median_hz": 201.06742488490875,
+      "common_voiced_frames": 186,
+      "f0_rmse_common_voiced_hz": 9.086277403878086,
+      "voiced_decision_agreement": 0.82,
+      "frame_logmel_l1": 0.621303141117096,
+      "frame_logenergy_mae": 0.3961154818534851
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.4561251997947693,
+      "aligned_model_mel_l1": 0.5812680721282959
+    },
+    "variance_errors": {
+      "duration_mae_frames": 1.3650793650793651,
+      "log_duration_mse": 0.03988206171545123,
+      "pitch_standardized_mse": 0.8260768082949391,
+      "energy_standardized_mse": 0.6184855742684093
+    }
+  },
+  {
+    "language": "telugu",
+    "case_id": "t2",
+    "source_id": "train-00001-of-00004:001903",
+    "speaker_id": "male",
+    "checkpoint": "step10500",
+    "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+    "mode": "full_inference",
+    "audio": {
+      "sample_rate": 22050,
+      "samples": 108032,
+      "duration_seconds": 4.899410430839002,
+      "rms": 0.08354218204946826,
+      "peak": 0.6057993769645691,
+      "clipped_fraction": 0.0
+    },
+    "acoustic": {
+      "duration_ratio": 0.9398663697104677,
+      "coarse_dtw_logmel_l1": 0.8032536506652832,
+      "voiced_f0_median_hz": 191.0342465662997
+    },
+    "model_mel": {
+      "coarse_dtw_model_mel_l1": 0.7857917547225952
+    },
+    "variance_errors": {
+      "duration_mae_frames": 1.3650793650793651,
+      "log_duration_mse": 0.03988206171545123,
+      "pitch_standardized_mse": 0.8260768082949391,
+      "energy_standardized_mse": 0.6184855742684093
+    }
+  }
+]

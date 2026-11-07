@@ -1,0 +1,14 @@
+{
+  "english": {
+    "total_parameters": 36670273,
+    "trainable_parameters": 34572099,
+    "fixed_parameters": 2098174,
+    "note": "Total includes fixed sinusoidal position tables and variance bin boundaries; architecture counts, not a training experiment"
+  },
+  "telugu": {
+    "total_parameters": 36665665,
+    "trainable_parameters": 34567491,
+    "fixed_parameters": 2098174,
+    "note": "Total includes fixed sinusoidal position tables and variance bin boundaries; architecture counts, not a training experiment"
+  }
+}

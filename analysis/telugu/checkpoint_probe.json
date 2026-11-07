@@ -1,0 +1,111 @@
+{
+  "seed": 2026,
+  "utterances": 6,
+  "selection": "5–12 s validation-only utterances with >=8 normalized words; seeded shuffle",
+  "asr": "Whisper large-v3 edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "metric": "word edit distance / normalized reference words; ASR intelligibility proxy only",
+  "candidates": {
+    "best": {
+      "step": 10500,
+      "checkpoint_sha256": "a5bd35778375c600d95605b75033bd6b814dc9c3c35382bc7cf3952ad0960eeb",
+      "reference_words": 94,
+      "word_errors": 65,
+      "asr_wer": 0.6914893617021277,
+      "utterances": [
+        {
+          "source_id": "train-00002-of-00004:002107",
+          "speaker_id": "male",
+          "reference_duration_seconds": 10.19175,
+          "reference_words": 18,
+          "word_errors": 12
+        },
+        {
+          "source_id": "train-00003-of-00004:001622",
+          "speaker_id": "male",
+          "reference_duration_seconds": 5.8773333333333335,
+          "reference_words": 11,
+          "word_errors": 6
+        },
+        {
+          "source_id": "train-00003-of-00004:001853",
+          "speaker_id": "male",
+          "reference_duration_seconds": 7.509333333333333,
+          "reference_words": 11,
+          "word_errors": 5
+        },
+        {
+          "source_id": "train-00003-of-00004:002046",
+          "speaker_id": "male",
+          "reference_duration_seconds": 8.96,
+          "reference_words": 18,
+          "word_errors": 12
+        },
+        {
+          "source_id": "train-00003-of-00004:001506",
+          "speaker_id": "male",
+          "reference_duration_seconds": 6.1489375,
+          "reference_words": 13,
+          "word_errors": 10
+        },
+        {
+          "source_id": "train-00002-of-00004:002011",
+          "speaker_id": "male",
+          "reference_duration_seconds": 10.8824375,
+          "reference_words": 23,
+          "word_errors": 20
+        }
+      ]
+    },
+    "latest": {
+      "step": 14500,
+      "checkpoint_sha256": "965cdcd89e1c3570376769f07b3517c58977f0dba988f5f5c2d324ac56fcb9f5",
+      "reference_words": 94,
+      "word_errors": 66,
+      "asr_wer": 0.7021276595744681,
+      "utterances": [
+        {
+          "source_id": "train-00002-of-00004:002107",
+          "speaker_id": "male",
+          "reference_duration_seconds": 10.19175,
+          "reference_words": 18,
+          "word_errors": 11
+        },
+        {
+          "source_id": "train-00003-of-00004:001622",
+          "speaker_id": "male",
+          "reference_duration_seconds": 5.8773333333333335,
+          "reference_words": 11,
+          "word_errors": 7
+        },
+        {
+          "source_id": "train-00003-of-00004:001853",
+          "speaker_id": "male",
+          "reference_duration_seconds": 7.509333333333333,
+          "reference_words": 11,
+          "word_errors": 7
+        },
+        {
+          "source_id": "train-00003-of-00004:002046",
+          "speaker_id": "male",
+          "reference_duration_seconds": 8.96,
+          "reference_words": 18,
+          "word_errors": 13
+        },
+        {
+          "source_id": "train-00003-of-00004:001506",
+          "speaker_id": "male",
+          "reference_duration_seconds": 6.1489375,
+          "reference_words": 13,
+          "word_errors": 10
+        },
+        {
+          "source_id": "train-00002-of-00004:002011",
+          "speaker_id": "male",
+          "reference_duration_seconds": 10.8824375,
+          "reference_words": 23,
+          "word_errors": 18
+        }
+      ]
+    }
+  }
+}

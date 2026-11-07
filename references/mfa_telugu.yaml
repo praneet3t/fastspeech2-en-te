@@ -1,0 +1,27 @@
+# Train only on selected training recordings; validation uses the frozen model.
+# Standard mono -> triphone -> LDA/MLLT -> SAT HMM/GMM stages.
+beam: 10
+retry_beam: 40
+features:
+  type: mfcc
+  use_energy: false
+  frame_shift: 10
+training:
+  - monophone:
+      num_iterations: 40
+      subset: 0
+  - triphone:
+      num_iterations: 35
+      num_leaves: 2000
+      max_gaussians: 10000
+      subset: 0
+  - lda:
+      num_iterations: 35
+      num_leaves: 2500
+      max_gaussians: 15000
+      subset: 0
+  - sat:
+      num_iterations: 35
+      num_leaves: 2500
+      max_gaussians: 15000
+      subset: 0

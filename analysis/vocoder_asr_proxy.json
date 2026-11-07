@@ -1,0 +1,56 @@
+[
+  {
+    "path": "artifacts/vocoder_validation/english_unknown_mixture_16000.wav",
+    "language": "english",
+    "source_kind": "vocoder_reconstruction",
+    "asr_text": "Jammu, Samba, Kathua, Rajouri, Poonch",
+    "asr_model": "large-v3",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  },
+  {
+    "path": "data/raw/english/audio/test-00000-of-00003_000009.wav",
+    "language": "english",
+    "source_kind": "original_reference",
+    "asr_text": "Jammu, Samba, Kathua, Rajori, Punj",
+    "asr_model": "large-v3",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  },
+  {
+    "path": "artifacts/vocoder_validation/telugu_female_16000.wav",
+    "language": "telugu",
+    "source_kind": "vocoder_reconstruction",
+    "asr_text": "నావికుడు సిందుబాద్",
+    "asr_model": "large-v3",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  },
+  {
+    "path": "data/raw/telugu/audio/train-00000-of-00004_000098.wav",
+    "language": "telugu",
+    "source_kind": "original_reference",
+    "asr_text": "నావికుడు సిందుబాద్",
+    "asr_model": "large-v3",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  },
+  {
+    "path": "artifacts/vocoder_validation/telugu_male_48000.wav",
+    "language": "telugu",
+    "source_kind": "vocoder_reconstruction",
+    "asr_text": "ఇక్కడా కేవలం ఐదవ తరగతి వరికు మాత్రమే పాటసార సవ్కరియం ఉంది",
+    "asr_model": "large-v3",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  },
+  {
+    "path": "data/raw/telugu/audio/train-00001-of-00004_001903.wav",
+    "language": "telugu",
+    "source_kind": "original_reference",
+    "asr_text": "ఇక్కడా కేవలం ఐదవ తరగతి వరికు మాత్రమే పాటసాల సవ్కరియం ఉంది",
+    "asr_model": "large-v3",
+    "note": "Automatic intelligibility proxy; no human listening assessment or naturalness score",
+    "asr_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  }
+]

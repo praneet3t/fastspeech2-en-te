@@ -1,0 +1,27 @@
+{
+  "columns": {
+    "audio": "struct<bytes: binary, path: string>",
+    "text": "string",
+    "gender": "int64"
+  },
+  "hf_metadata": {
+    "info": {
+      "features": {
+        "audio": {
+          "_type": "Audio"
+        },
+        "text": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "gender": {
+          "names": [
+            "female",
+            "male"
+          ],
+          "_type": "ClassLabel"
+        }
+      }
+    }
+  }
+}
